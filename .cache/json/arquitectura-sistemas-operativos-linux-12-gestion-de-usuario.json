@@ -1,0 +1,16 @@
+{
+    "data": {
+        "markdownRemark": {
+            "html": "<h2>Funciones Básicas Vi/Vim</h2>\n<p>Lorem ipsum dolor sit amet, soleat vulputate has et, tempor audiam eum ex. Mutat apeirian vel ei, usu et esse efficiantur, no eum graecis corpora. Ea utamur fastidii duo, adhuc prodesset conclusionemque eam ad. Ea ius audire nostrum accusamus, in vim nulla causae accumsan, an debet habemus phaedrum eos. Tritani civibus ex pri, id vel magna veritus, eos eu vide decore nonumes. Id quo mazim blandit delectus, ei inani possit ullamcorper mea.</p>",
+            "fields": {
+                "slug": "/arquitectura-sistemas-operativos-linux/12-gestion-de-usuario/"
+            },
+            "frontmatter": {
+                "title": "Funciones Básicas Vi/Vim"
+            }
+        }
+    },
+    "pathContext": {
+        "slug": "/arquitectura-sistemas-operativos-linux/12-gestion-de-usuario/"
+    }
+}

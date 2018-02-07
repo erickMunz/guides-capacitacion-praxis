@@ -1,0 +1,995 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 197,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/linux/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/terminal-commandline/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/vim/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/authenticate-with-github-using-ssh/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/difference-git-github/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/GUI-options/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-bisect/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/LICENSE/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-clone/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-checkout/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-commit/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-hosting/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-log/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-branch/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-merge/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-push/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-rebase/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-remote/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-reset/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-stash/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-pull/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/git-status/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/gitignore/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/git/tagging-in-git/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/10-simple-and-useful-linux-commands/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/Setting Up Yum Repositories in RedHat Linux/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/How linux system boots up - 6 step description/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/basic-linux-commands/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/create-file-with-sepcific-size/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/how-to-download-files-with-wget/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/advantages-of-linux/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/how-to-extract-or-decompress-a-compressed-file-in-linux/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/install-and-configure-apache-server-in-linux/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/install-and-configure-ftp-server-in-linux-redhat/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/installing-cli-tools-developers-should-not-live-without-on-linux-and-mac/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/linux-brief-history/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/local-lamp-server-on-ubuntu/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/shell-scripting/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/some-usages-for-linux/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/origins-of-linux-and-the-free-software-movement/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/user-management-on-linux/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/using-the-find-command/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/terminal-commandline/macos-terminal/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/YOLO for object detection/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/backpropagation/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/bayes-classifier/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/brownian-motion/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/clustering-algorithms/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/dimension-reduction/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/expectation-maximization-algorithm/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/linux/the-command-prompt/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/deep-learning/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/glossary/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/gaussian-process/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/linear-regression/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/feature-engineering/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/logistic-regression/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/monte-carlo/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/neural-networks/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/latent-dirichlet-allocation/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principal-component-analysis/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/random-forest/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/reinforcement-learning/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/stochastic-process/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/supervised-learning/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/support-vector-machine/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/unsupervised-learning/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/binary-decimal-hexadecimal-converter/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/color-picker/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/image-editor/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/prime-number-chart/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/prime-number-generator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/1-funciones-basicas-vim/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/10-optimizacion-de-particiones-ext4/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/11-uso-de-sudo/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/source-code-editors/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/12-gestion-de-usuario/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/14-permisos-de-sistemas-de-archivos/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/13-gestion-de-procesos-y-trabajos/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/16-uso-de-yum/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/17-uso-de-atd-crond/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/15-listas-de-control-de-acceso/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/18-uso-de-tcp-ip-y-configuraciones-de-red/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/19-configuracion-vlans/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/20-iptables/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/21-protocolo-dns/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/23-configuracion-ntp/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/24-configuracion-nfs/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/25-configuracion-samba/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/26-configuracion-ldap/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/27-configuracion-rsyslog/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/28-programacion-bash/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/3-ajustes-de-horario/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/4-planificadores-entrada-salida/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/5-sistema-de-nivel-de-ejecucion/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/7-systemD/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/6-gestion-de-servicios/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/8-gestion-de-memoria-de-intercambio/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/9-gestion-de-volumenes-logicos/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/vim/copy-and-paste/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/vim/macros/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/vim/split/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/vim/modes/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/vim/search-and-replace/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/vim/vundle/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/neural-networks/convolutional-neural-networks/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/vim/useful-commands/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/data-alone-is-not-enough/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/vim/motions/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/correlation-does-not-imply-causation/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/feature-engineering-is-the-key/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/its-generalization-that-counts/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/learn-many-models-not-just-one/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/intuition-fails-in-high-dimensions/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/more-data-beats-a-cleverer-algorithm/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/learning-equals-representation-evaluation-optimization/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/overfitting-has-many-faces/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/representable-does-not-imply-learnable/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/theoretical-guarantees-are-not-what-they-seem/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/machine-learning/principles/simplicity-does-not-imply-accuracy/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/401k-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/amortization-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/apr-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/area-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/auto-lease-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/binary-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/vim/navigation/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/btu-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/circle-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/coding-bootcamp-cost-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/combinations-and-permutations-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/complex-number-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/confidence-interval-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/conversion-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/conception-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/date-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/exponent-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/density-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/finance-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/financial-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/fraction-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/gpa-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/future-value-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/greatest-common-factor-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/half-life-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/hex-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/income-tax-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/inflation-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/interest-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/interest-rate-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/ip-subnet-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/least-common-multiple-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/log-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/matrix-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/mortgage-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/mortgage-payoff-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/number-sequence-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/mean-median-mode-range-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/order-of-operations-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/percent-error-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/percentage-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/present-value-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/prime-number-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/probability-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/ratio-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/refinance-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/return-on-investment-roi-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/salary-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/sample-size-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/sales-tax-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/scientific-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/sigma-sum-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/slope-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/square-footage-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/standard-deviation-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/surface-area-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/take-home-paycheck-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/time-zone-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/tip-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/triangle-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/vector-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/voltage-drop-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/volume-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tools/calculators/calorie-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/404/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/search/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/404.html"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}

@@ -1,0 +1,16 @@
+{
+    "data": {
+        "markdownRemark": {
+            "html": "<h2>Monte Carlo</h2>\n<p>The Monte Carlo is a class of simulation techniques that allow you to explore the solution space of a problem that has inputs that can take on multiple values.  By running simulations with randomized inputs and model parameters, you can observe outcomes that result from inputs that may have other not been tested.  The method is useful for solving problems that may be too difficult to solve analytically.</p>\n<h4>More Information:</h4>\n<p><a href=\"https://en.wikipedia.org/wiki/Monte_Carlo_method\">https://en.wikipedia.org/wiki/Monte<em>Carlo</em>method</a>\n<a href=\"http://mathworld.wolfram.com/MonteCarloMethod.html\">http://mathworld.wolfram.com/MonteCarloMethod.html</a>\n<a href=\"http://blog.minitab.com/blog/understanding-statistics/monte-carlo-is-not-as-difficult-as-you-think\">http://blog.minitab.com/blog/understanding-statistics/monte-carlo-is-not-as-difficult-as-you-think</a></p>",
+            "fields": {
+                "slug": "/machine-learning/monte-carlo/"
+            },
+            "frontmatter": {
+                "title": "Monte Carlo"
+            }
+        }
+    },
+    "pathContext": {
+        "slug": "/machine-learning/monte-carlo/"
+    }
+}
