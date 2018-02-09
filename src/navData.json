@@ -1197,7 +1197,7 @@
     "path": "/arquitectura-sistemas-operativos-linux/26-configuracion-ldap",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "Funciones Básicas Vi/Vim"
+    "title": "26. Configuración Ldap :"
   },
   "/git/git-status": {
     "children": [],
@@ -1309,7 +1309,7 @@
     "path": "/arquitectura-sistemas-operativos-linux/28-programacion-bash",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "Funciones Básicas Vi/Vim"
+    "title": "28. Programación Bash"
   },
   "/git/tagging-in-git": {
     "children": [],
