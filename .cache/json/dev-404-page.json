@@ -300,11 +300,6 @@
                 },
                 {
                     "node": {
-                        "path": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/"
-                    }
-                },
-                {
-                    "node": {
                         "path": "/arquitectura-sistemas-operativos-linux/23-configuracion-ntp/"
                     }
                 },
@@ -321,11 +316,6 @@
                 {
                     "node": {
                         "path": "/arquitectura-sistemas-operativos-linux/26-configuracion-ldap/"
-                    }
-                },
-                {
-                    "node": {
-                        "path": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/"
                     }
                 },
                 {
@@ -966,6 +956,16 @@
                 {
                     "node": {
                         "path": "/tools/calculators/circle-calculator/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/"
                     }
                 },
                 {

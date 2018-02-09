@@ -938,12 +938,12 @@
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
-      "buildTime": "2018-02-09T16:26:11.823Z",
+      "buildTime": "2018-02-09T18:50:32.013Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "04dc2c5a8782b15da906544fd5c36f28",
+        "contentDigest": "fc49493f1fa298c2f4bd1c9b633bbc01",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -3732,51 +3732,6 @@
       "ctime": "2018-02-09T16:18:46.322Z",
       "birthtime": "2018-02-09T16:18:46.322Z"
     },
-    "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file": {
-      "id": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file",
-      "children": [
-        "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "99b60b99e773af14ed70898e20d64183",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md",
-      "relativePath": "arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md",
-      "extension": "md",
-      "size": 6521,
-      "prettySize": "6.52 kB",
-      "modifiedTime": "2018-02-09T17:36:09.232Z",
-      "accessTime": "2018-02-09T17:36:09.240Z",
-      "changeTime": "2018-02-09T17:36:09.232Z",
-      "birthTime": "2018-02-09T17:36:09.232Z",
-      "root": "/",
-      "dir": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "dev": 2050,
-      "mode": 33279,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 38545755,
-      "blocks": 16,
-      "atimeMs": 1518197769239.5151,
-      "mtimeMs": 1518197769231.5151,
-      "ctimeMs": 1518197769231.5151,
-      "birthtimeMs": 1518197769231.5151,
-      "atime": "2018-02-09T17:36:09.240Z",
-      "mtime": "2018-02-09T17:36:09.232Z",
-      "ctime": "2018-02-09T17:36:09.232Z",
-      "birthtime": "2018-02-09T17:36:09.232Z"
-    },
     "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/23-configuracion-ntp/index.md absPath of file": {
       "id": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/23-configuracion-ntp/index.md absPath of file",
       "children": [
@@ -3829,7 +3784,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "226e18ece3617363c6d96ee4c366d5d7",
+        "contentDigest": "075543c1dbd78271c9e1030e398158e7",
         "mediaType": "text/markdown",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -3838,12 +3793,12 @@
       "absolutePath": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/24-configuracion-nfs/index.md",
       "relativePath": "arquitectura-sistemas-operativos-linux/24-configuracion-nfs/index.md",
       "extension": "md",
-      "size": 513,
-      "prettySize": "513 B",
-      "modifiedTime": "2018-02-09T16:18:38.882Z",
-      "accessTime": "2018-02-09T16:25:15.639Z",
-      "changeTime": "2018-02-09T16:18:46.322Z",
-      "birthTime": "2018-02-09T16:18:46.322Z",
+      "size": 5940,
+      "prettySize": "5.94 kB",
+      "modifiedTime": "2018-02-09T19:34:18.860Z",
+      "accessTime": "2018-02-09T19:34:18.864Z",
+      "changeTime": "2018-02-09T19:34:18.860Z",
+      "birthTime": "2018-02-09T19:34:18.860Z",
       "root": "/",
       "dir": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/24-configuracion-nfs",
       "base": "index.md",
@@ -3857,15 +3812,15 @@
       "rdev": 0,
       "blksize": 4096,
       "ino": 38545759,
-      "blocks": 8,
-      "atimeMs": 1518193515638.5012,
-      "mtimeMs": 1518193118882.32,
-      "ctimeMs": 1518193126322.3132,
-      "birthtimeMs": 1518193126322.3132,
-      "atime": "2018-02-09T16:25:15.639Z",
-      "mtime": "2018-02-09T16:18:38.882Z",
-      "ctime": "2018-02-09T16:18:46.322Z",
-      "birthtime": "2018-02-09T16:18:46.322Z"
+      "blocks": 16,
+      "atimeMs": 1518204858864.4175,
+      "mtimeMs": 1518204858860.4175,
+      "ctimeMs": 1518204858860.4175,
+      "birthtimeMs": 1518204858860.4175,
+      "atime": "2018-02-09T19:34:18.864Z",
+      "mtime": "2018-02-09T19:34:18.860Z",
+      "ctime": "2018-02-09T19:34:18.860Z",
+      "birthtime": "2018-02-09T19:34:18.860Z"
     },
     "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/25-configuracion-samba/index.md absPath of file": {
       "id": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/25-configuracion-samba/index.md absPath of file",
@@ -3919,7 +3874,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "226e18ece3617363c6d96ee4c366d5d7",
+        "contentDigest": "05da2f38c1b1e8396149a815a569aab7",
         "mediaType": "text/markdown",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -3930,10 +3885,10 @@
       "extension": "md",
       "size": 513,
       "prettySize": "513 B",
-      "modifiedTime": "2018-02-09T16:18:38.882Z",
-      "accessTime": "2018-02-09T16:25:15.643Z",
-      "changeTime": "2018-02-09T16:18:46.322Z",
-      "birthTime": "2018-02-09T16:18:46.322Z",
+      "modifiedTime": "2018-02-09T19:35:37.621Z",
+      "accessTime": "2018-02-09T19:35:37.625Z",
+      "changeTime": "2018-02-09T19:35:37.621Z",
+      "birthTime": "2018-02-09T19:35:37.621Z",
       "root": "/",
       "dir": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/26-configuracion-ldap",
       "base": "index.md",
@@ -3948,14 +3903,14 @@
       "blksize": 4096,
       "ino": 39192616,
       "blocks": 8,
-      "atimeMs": 1518193515642.5015,
-      "mtimeMs": 1518193118882.32,
-      "ctimeMs": 1518193126322.3132,
-      "birthtimeMs": 1518193126322.3132,
-      "atime": "2018-02-09T16:25:15.643Z",
-      "mtime": "2018-02-09T16:18:38.882Z",
-      "ctime": "2018-02-09T16:18:46.322Z",
-      "birthtime": "2018-02-09T16:18:46.322Z"
+      "atimeMs": 1518204937624.7046,
+      "mtimeMs": 1518204937620.7046,
+      "ctimeMs": 1518204937620.7046,
+      "birthtimeMs": 1518204937620.7046,
+      "atime": "2018-02-09T19:35:37.625Z",
+      "mtime": "2018-02-09T19:35:37.621Z",
+      "ctime": "2018-02-09T19:35:37.621Z",
+      "birthtime": "2018-02-09T19:35:37.621Z"
     },
     "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/27-configuracion-rsyslog/index.md absPath of file": {
       "id": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/27-configuracion-rsyslog/index.md absPath of file",
@@ -11015,28 +10970,6 @@
         "slug": "/arquitectura-sistemas-operativos-linux/21-protocolo-dns/"
       }
     },
-    "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: 20. Configuración Openssh\n---\n## 20. Configuración Openssh\n\n\n### SSH :\n\n\nSSH (Secure Shell) es un conjunto de estándares y protocolo de red que permite establecer una comunicación a través de un canal seguro entre un cliente local y un servidor remoto. \nPara esto utiliza una llave para autenticar el servidor remoto, además utiliza criptografía para la integridad en la transferencia de los datos.\n\nEl puerto por defecto para conectarse es el 22.\n\n```\nComando para conectarse a un servidor por medio del SSH :\n\n# ssh usuario@nombre.o.ip.servidor\n\nSi se utiliza un puerto diferente del 22, solo se pone el parámetro -p , que hace referencia al puerto.\n\n# ssh -p 52341 juan@192.168.70.99\n```\n\n### SFTP :\n\nSFTP (SSH File Transfer Protocol) es un protocolo que provee funcionalidad de transferencia y manipulación de archivos a través de un flujo confiable de datos. \n\nPara acceder a través de SFTP hacia el servidor, ejecute sftp desde el sistema cliente definiendo el usuario a utilizar, una arroba y el nombre o dirección IP del servidor remoto:\n\n```\nComando :\n\n# sftp usuario@servidor\n\n\n\nSi se utiliza otro puerto distinto al 22, solo se agregan unos parámetros en el comando :\n\nsftp -o Port=52341 juan@192.168.70.99\n# \n```\n\nEn algunas distribuciones ubuntu que utilicen el Sistema de administración de Ficheros Nautilus, este puede acceder al servidor vía URL :\n\n![Nautilus ](http://www.alcancelibre.org/images/nautilus-sftp.png)\n\n\n### SCP :\n\nSCP (Secure Copy o Copia Segura) es una protocolo seguro para transferir archivos entre un anfitrión local y otro remoto, a través de SSH.\n\nEs decir es una herramienta para copiar archivos de un servidor local a uno remoto, solo utiliza cómo parámetros las direcciones ip, y el usuario, además los datos son cifrados durante la transferencia .\n\nParámetros que se pueden incluir :\n\n* -p (minúscula)\nPreserva el tiempo de modificación, tiempos de acceso y los modos del archivo original.\n* -P (mayúscula)\nEspecifica el puerto para realizar la conexión.\n* -r\nCopia en modo descendente de los directorios especificados.\n\n\n```\nComando scp :\n\nscp file  user@host:/path/   =  Copia un arhivo local a otra máquina(host) con el usuario correspondiente\n\nEjemplos :\n\nscp -p algo.txt fulano@192.168.70.99:~/\n\nscp -rp Mail fulano@192.168.70.99:/home\n\n\n```\n\n\n### OpenSSH :\n\nOpenSSH (Open Secure Shell) es una alternativa de código fuente abierto, para utilizar ssh.\n\nOpenSSH incluye servicio y clientes para los protocolos SSH, SFTP y SCP.\n\n#### Instalar OpenSSh :\n\n* Centos, Red Hat, Fedora :\n\n```yum -y install openssh openssh-server openssh-clients```\n\n* Ubuntu, Debian :\n\n```sudo apt-get install openssh-server```\n\n#### Utilizar OpenSSH como servicio :\n\n* Comandos :\n\n```\n\nVer el estado del servicio SSH :\n\nsudo service ssh status\n\n\n\nIniciar el Servicio SSH :\n\nsudo service ssh start\n\n\n\nParar el Servicio SSH :\n\nsudo service ssh stop\n\n\n\nReiniciar el Servicio SSH :\n\nsudo service ssh restart\n\n\n```\n\nPara manejar los servicios se puede utilizar el :  service o si no también se puede utilizar :  systemctl.\n\n### Configuración del Firewall para SSH :\n\nSi se está utilizando el firewall es necesario abrir los puertos que utiliza SSh :\n\n* Ejecute lo siguiente:\n```\niptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT\n```\n\n* Guarde los cambios ejecutando lo siguiente:\n```\nservice iptables save\n```\n\n* De otra manera se pude configurar el siguiente archivo /etc/sysconfig/iptables, solo se debe de agregar:\n```\n-A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT\n```\n\n* Y reinicie el servicio iptables:\n```\nservice iptables restart\n```\n\n### Archivos de configuración :\n\n* /etc/ssh/sshd_config :\nArchivo principal de configuración del servidor SSH.\n\n* /etc/ssh/ssh_config :\nArchivo principal de configuración de los clientes SSH utilizados desde el anfitrión local.\n\n* ~/.ssh/config :\nArchivo personal para cada usuario, que almacena la configuración utilizada por los clientes SSH utilizados desde el anfitrión local. Permite al usuario local utilizar una configuración distinta a la definida en el archivo /etc/ssh/ssh_config.\n\n* ~/.ssh/known_hosts :\nArchivo personal para cada usuario, el cual almacena las firmas digitales de los servidores SSH a los que se conectan los clientes. \n\n* ~/.ssh/authorized_keys :\nArchivo personal para cada usuario, el cual almacena los certificados de los clientes SSH, para permitir autenticación hacia servidores SSH sin requerir contraseña.\n\n\n### Configuración de Seguridad para SSH :\n\nEstas configuraciones son el el archivo sshd_config . \n\n* Cambiar el puerto por defecto que es el 22 : ```Port 22445```\n\n* Bloquear el acceso root en las conexiones remotas : ```PermitRootLogin no```\n\n* LoginGraceTime: Estableceremos el tiempo necesario para introducir la contraseña : ```LoginGraceTime 30```\n\n* MaxAuthTries: Número de intentos permitidos al introducir la contraseña antes de desconectarnos : ```MaxAuthTries 3```\n\n\n* MaxStartups: Número de logins simultáneos desde una IP : ```MaxStartups 3```\n\n* AllowUsers: Es crear una lista blanca de usuario. Este parámetro nos permite configurar los usuarios que podrán conectarse : ```AllowUsers user1 user2```\n\n* DenyUsers: Se crea una lista negra. Los usuarios que tengamos aquí no podrán conectarse : \t```DenyUsers  user1 user2```\n\n* AllowGroups/DenyUsers: Se crean listas pero en lugar de usuarios son de grupos.\n\n#### Para más información:\n<!-- Please add any articles you think might be helpful to read before writing the article -->\n- Configuración de OpenSSH :   <a href='http://www.alcancelibre.org/staticpages/index.php/10-como-openssh' target='_blank' rel='nofollow'>http://www.alcancelibre.org/staticpages/index.php/10-como-openssh</a>\n\n- Instalar OpenSSH :\n<a href='http://ubuntuhandbook.org/index.php/2016/04/enable-ssh-ubuntu-16-04-lts/' target='_blank' rel='nofollow'>http://ubuntuhandbook.org/index.php/2016/04/enable-ssh-ubuntu-16-04-lts/</a> \n\n- Archivos de Configuración :\n<a href='http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/s1-ssh-configfiles.html' target='_blank' rel='nofollow'>http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/s1-ssh-configfiles.html</a> \n\n- Configuración de Seguridad SSH :\n<a href='https://www.redeszone.net/seguridad-informatica/servidor-ssh-en-linux-manual-de-configuracion-para-maxima-seguridad/' target='_blank' rel='nofollow'>https://www.redeszone.net/seguridad-informatica/servidor-ssh-en-linux-manual-de-configuracion-para-maxima-seguridad/</a> \n\n\n\n\n",
-        "contentDigest": "901ce56a05ea3a1529852c6effb796be",
-        "type": "MarkdownRemark",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "20. Configuración Openssh",
-        "parent": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file"
-      },
-      "fileAbsolutePath": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md",
-      "fields": {
-        "slug": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/"
-      }
-    },
     "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/23-configuracion-ntp/index.md absPath of file >>> MarkdownRemark": {
       "id": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/23-configuracion-ntp/index.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -11064,8 +10997,8 @@
       "children": [],
       "parent": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/24-configuracion-nfs/index.md absPath of file",
       "internal": {
-        "content": "---\ntitle: Funciones Básicas Vi/Vim\n---\n## Funciones Básicas Vi/Vim\n\nLorem ipsum dolor sit amet, soleat vulputate has et, tempor audiam eum ex. Mutat apeirian vel ei, usu et esse efficiantur, no eum graecis corpora. Ea utamur fastidii duo, adhuc prodesset conclusionemque eam ad. Ea ius audire nostrum accusamus, in vim nulla causae accumsan, an debet habemus phaedrum eos. Tritani civibus ex pri, id vel magna veritus, eos eu vide decore nonumes. Id quo mazim blandit delectus, ei inani possit ullamcorper mea.",
-        "contentDigest": "fbd7729db0fd343f7de154fb1f54d6bf",
+        "content": "---\ntitle: 24. Configuración NFS\n---\n## 24. Configuración NFS\n\n### NFS :\n\nEs un protocolo utilizado para compartir sistemas de archivos de manera transparente entre anfitriones dentro de una red de área local. Es utilizado para sistemas de archivos distribuido.\n\nExisten tres versiones de NFS :\n\n* NFSv2: Es la versión más antigua y mejor soportada.\n* NFSv3: Tiene más características que NFSv2, como el manejo de archivos de tamaño variable y mejores informes de errores. Sólo es parcialmente compatible con los clientes para NFSv2.\n* NFSv4: Es la versión más moderna, y, entre otras cosas, incluye soporte para seguridad a través de Kerberos, soporte para ACL y utiliza operaciones con descripción del estado.\n\n### Llamada de Procedimiento Remoto :\n\nLa llamada de procedimiento remoto (RPC) es la capa de sesión de protocolo. \n\nLa ejecución de un RPC consiste en los sig. pasos:\n1. Activación por el programa cliente. Los parámetros de solicitud son empaquetados dentro de un\npaquete de datos.\n2. Mandando solicitudes y desempaquetamiento de los parámetros en el programa del servidor.\n3. Ejecución de la solicitud (el procedimiento) en el servidor.\n4. Empaquetar y retornar de los resultados del cliente.\n5. Desempaquetar los resultados por el cliente y continuación de los programas normales de ejecución.\n\n### Port Mapper :\nEs un servicio el cual se encarga de controlar una tabla de mapeo en relación  de  TCP ó UDP de números de puertos.\nEL portmapper ocupa el puerto 111 en ambos TCP y UDP. \n\n#### Protocolo PortMapper\n\nCliente y servidor ambos comunican con el portmapper vía RPC. Los procedimientos RPC define en el protocolo portmapper. No es apropiado obtener la descripción exacta de los procedimientos y el resultado de este punto. \n\n### Instalación de NFS :\n\n\n* Centos, Fedora, Red Hat, Oracle Linux : ```yum -y install nfs-utils```\n\n* Ubuntu, Debian : ```apt-get install nfs-common nfs-kernel-server```\n\n### Configuración del servidor NFS :\n\n#### Definir los puertos utilizados por NFS :\n\n1. Primero se debe de editar un archivo :\nEdite el archivo /etc/sysconfig/nfs: ```vi /etc/sysconfig/nfs```\n\n2. Se deben de modificar o agregar los siguientes valores :\n\n```\nRQUOTAD_PORT=875\nLOCKD_TCPPORT=32803\nLOCKD_UDPPORT=32769\nMOUNTD_PORT=892\nSTATD_PORT=662\n```\n\n#### Creación de directorios del Cliente NFS :\n\nCree los directorios que desee montar en los directorios del cliente NFS \nEjemplo :\n```\n# mkdir /home/machine1\n# mkdir /home/machine2\n# mkdir /home/machine3\n# mkdir /home/machine4\n```\nLos directorios que se van a crear deben de tener autorización de escritura.\n\n\n#### Configurar exports:\n\nConfigure el archivo /etc/exports, agregando los directorios creados :\n\n```\n# nano /etc/exports\n\nY se agrega :\n\n/home/machine1 *(rw, sync)\n/home/machine2 *(rw, sync, no_wdelay, nohide)\n/home/machine3 *(rw, sync, no_root_squash)\n/home/machine4 *(rw, sync, no_root_squash)\n```\n\nĹos parámetros que se utilizan son :\n\n* rw : Permitir solicitudes de lectura y escritura.\n\n* no__wdelay : Esta opción no tiene efecto si async también está configurado. El servidor NFS  retrasará la confirmación de una solicitud de escritura al disco si sospecha que otra solicitud de escritura relacionada puede estar en progreso.\n\n* sync : Responde a las solicitudes solo después de que los cambios se hayan comprometido a un almacenamiento estable. \n\n* async : Esta opción permite que el servidor NFS viole el protocolo NFS y responda a las solicitudes antes de que los cambios realizados por esa solicitud se hayan comprometido a un almacenamiento estable.\n\n* root__squash : Impide que los usuarios root conectados de forma remota tengan privilegios de administrador.\n\n* no__root__squash : Lo contarioa a root_squash.\n\nDebe tener el parámetro no_root_squash; de lo contrario, recibirá un error.\n\n\n#### Iniciar el servicio Portmap :\nChecar el estado del servicio, es necesario que este en ejecución de otro modo iniciarlo :\n\n```# service portmap status```\n\nSi acaso esta desactivado, lo iniciamos :```# service portmap start```\n\n\n#### Iniciar el servicio NFS :\n\nPara iniciar o reiniciar el servicio NFS :\n\n```\n# service nfs start \n# service nfs restart\n\nRecargar el servicio sin interrumpir las conexiones existentes :\n#service nfs reload\n\nPara pararlo :\n\n# service nfs stop\n```\n\n#### Congigurar para que el servicio inicie con el Sistema :\n\nPara que el servicio NFS se inicie automáticamente con el sistema :\n\nComando :\n```\n# chkconfig --level 35 nfs on\n```\n\n\n#### Comprobar los directorios de exportación :\n\nPor último; para comprobar los directorios de exportación de NFS, utilice el siguiente comando :\n\n```\n# showmount -e <ip_servidor>\n\n```\n\n\n#### Para más información:\n<!-- Please add any articles you think might be helpful to read before writing the article -->\n-Configuración del servidor NFS :   <a href='https://www.ibm.com/support/knowledgecenter/es/SSFTN5_8.5.6/com.ibm.wbpm.admin.doc/topics/tadm_recovery_config_nfs.html' target='_blank' rel='nofollow'>https://www.ibm.com/support/knowledgecenter/es/SSFTN5_8.5.6/com.ibm.wbpm.admin.doc/topics/tadm_recovery_config_nfs.html</a>\n\n- Configuración de servidor NFS. :\n<a href='http://www.alcancelibre.org/staticpages/index.php/12-como-nfs' target='_blank' rel='nofollow'>http://www.alcancelibre.org/staticpages/index.php/12-como-nfs</a> \n\n- Exports :\n<a href='https://linux.die.net/man/5/exports' target='_blank' rel='nofollow'>https://linux.die.net/man/5/exports</a> \n\n- Red Hat Enterprise Linux 4: Manual de referencia Sistema de archivos de red (NFS) :\n<a href='http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/s1-nfs-server-export.html' target='_blank' rel='nofollow'>http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/s1-nfs-server-export.html</a>\n\n- Configurar NFS :\n<a href='https://linuxconfig.org/how-to-configure-nfs-on-linux \n' target='_blank' rel='nofollow'>https://linuxconfig.org/how-to-configure-nfs-on-linux \ns</a> \n\n\n\n\n\n\n\n\n\n\n",
+        "contentDigest": "76e8900763d7ffd5f2c591e1f9bcae04",
         "type": "MarkdownRemark",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
@@ -11073,7 +11006,7 @@
         }
       },
       "frontmatter": {
-        "title": "Funciones Básicas Vi/Vim",
+        "title": "24. Configuración NFS",
         "parent": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/24-configuracion-nfs/index.md absPath of file"
       },
       "fileAbsolutePath": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/24-configuracion-nfs/index.md",
@@ -11108,8 +11041,8 @@
       "children": [],
       "parent": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/26-configuracion-ldap/index.md absPath of file",
       "internal": {
-        "content": "---\ntitle: Funciones Básicas Vi/Vim\n---\n## Funciones Básicas Vi/Vim\n\nLorem ipsum dolor sit amet, soleat vulputate has et, tempor audiam eum ex. Mutat apeirian vel ei, usu et esse efficiantur, no eum graecis corpora. Ea utamur fastidii duo, adhuc prodesset conclusionemque eam ad. Ea ius audire nostrum accusamus, in vim nulla causae accumsan, an debet habemus phaedrum eos. Tritani civibus ex pri, id vel magna veritus, eos eu vide decore nonumes. Id quo mazim blandit delectus, ei inani possit ullamcorper mea.",
-        "contentDigest": "fbd7729db0fd343f7de154fb1f54d6bf",
+        "content": "---\ntitle: 26. Configuración Ldap :\n---\n## 26. Configuración Ldap :\n\nLorem ipsum dolor sit amet, soleat vulputate has et, tempor audiam eum ex. Mutat apeirian vel ei, usu et esse efficiantur, no eum graecis corpora. Ea utamur fastidii duo, adhuc prodesset conclusionemque eam ad. Ea ius audire nostrum accusamus, in vim nulla causae accumsan, an debet habemus phaedrum eos. Tritani civibus ex pri, id vel magna veritus, eos eu vide decore nonumes. Id quo mazim blandit delectus, ei inani possit ullamcorper mea.",
+        "contentDigest": "17a43cd4677847a6f3fc9d95e35dae0b",
         "type": "MarkdownRemark",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
@@ -11117,7 +11050,7 @@
         }
       },
       "frontmatter": {
-        "title": "Funciones Básicas Vi/Vim",
+        "title": "",
         "parent": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/26-configuracion-ldap/index.md absPath of file"
       },
       "fileAbsolutePath": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/26-configuracion-ldap/index.md",
@@ -13941,6 +13874,140 @@
         "slug": "/tools/calculators/circle-calculator/"
       }
     },
+    "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/index.md absPath of file": {
+      "id": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/index.md absPath of file",
+      "children": [
+        "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e34769b50231a7ad49ef5cdccbec3e25",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/index.md",
+      "relativePath": "arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/index.md",
+      "extension": "md",
+      "size": 4258,
+      "prettySize": "4.26 kB",
+      "modifiedTime": "2018-02-09T16:39:53.370Z",
+      "accessTime": "2018-02-09T17:59:56.887Z",
+      "changeTime": "2018-02-09T17:59:47.639Z",
+      "birthTime": "2018-02-09T17:59:47.639Z",
+      "root": "/",
+      "dir": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 2050,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 38545777,
+      "blocks": 16,
+      "atimeMs": 1518199196887.1118,
+      "mtimeMs": 1518194393370.4126,
+      "ctimeMs": 1518199187638.632,
+      "birthtimeMs": 1518199187638.632,
+      "atime": "2018-02-09T17:59:56.887Z",
+      "mtime": "2018-02-09T16:39:53.370Z",
+      "ctime": "2018-02-09T17:59:47.639Z",
+      "birthtime": "2018-02-09T17:59:47.639Z"
+    },
+    "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: 2. Comandos Necesarios para la administración de Servidores\n---\n## 2. Comandos Necesarios para la administración de Servidores\n\nLinux al ser un gran sistema operativo con el que cuenta con cientos de comandos, en esta  sección tratare de resumir con un enfoque a que comandos son los que más se utilizan para la administración de servidores, se pondrán algunos ejemplos y su utilidad.\n\nPero como tal Linux, cuenta con varios comandos para diferentes utilidades o ámbitos. \n\n\n## Lista de Comandos\n\n```\n\n* cat  file =  Muestra el contenido de archivos y concatena archivos.\n\n* cd [dir]  =  Cambia de directorio\n\n* chown usuario:grupo fich  =  Cambia el dueño un archivo\n\n* cp fich1  /file path/fich1  =  Copia archivos\n\n* du [-sabr] fich  =  Reporta el tamaño del directorio\n\n* file archivo  =   Muestra el tipo de un archivo\n\n* mkdir dir   =  Crea un directorio\n\n* touch file   =  Crea un archivo\n\n* mv fich1   /file path/file  =  Mueve un archivo(s) a un directorio\n\n* mv file1   file2   =   Renombra archivo\n* ln [-s] fich acceso   =   Crea un acceso directo a un archivo\n\n* ls -param  =  Lista el contenido del directorio\n\n* pwd  =   Muestra la ruta actual del directorio\n\n* rm fich  =  Borra un fichero\n\n* rm -r dir  =  Borra todo un directorio\n\n* rmdir dir  =  Borra un directorio vacío\n\n* tail  file  =  Muestra el final de un archivo\n* echo file ó String =  Imprime el contenido de un archivo o de una cadena de texto\n\n* vi file  =  Edita un fichero\n\n* kill  PID  = Termina con un proceso\n\n* whoami   =  Muestra el usuario actual\n\n* passwd  user =  Cambia la contraseña de un Usuario\n\n* ps -[axiu]  =  Muestra información sobre los procesos\n\n* who  =  Muestra información de los usuarios\n\n* clear  =  Limpia la pantalla de la consola\n\n* more  file  =  Muestra un archivo por partes\n\n* du -ks <ARCHIVOS_o_DIRECTORIOS>   =  Muestra el espacio que ocupa en disco un archivo o carpeta\n\n* Ubuntu (sudo su -)  ó  Centos (sudo -)  =  Logearse como usuario root\n\n* uname -m   =  Muestra la arquitectura de la máquina\n \n* scp file  user@host:/path/   =  Copia un arhivo local a otra máquina(host) con el usuario correspondiente\n\n* uname -r = Muestra la versión del kernel usado\n\n* dmidecode -q   =  Muestra los componentes (hardware) del sistema.\n\n* init 0  =  Apaga la pc\n\n* init 6   =  Reinicia la pc\n\n* init (1,2,3,4,5,6)  = Niveles de ejecución del sistema\n\n* reboot  =  reinicia el sistema\n\n* shutdown -h now  =  Apaga el sistema\n\n* cd ..  =  Retrocede un nivel del directorio actual\n\n* cd –   = Regresar al directorio anterior.\n\n* tree  Dir = Muestra los ficheros y carpetas en forma de árbol comenzando por la raíz\n\n* groupadd nombre_del_grupo  =  Crea un nuevo grupo\n\n* groupdel nombre_del_grupo   =  Borra un grupo\n\n* useradd user  =  Crea un nuevo usuario. \n\n* userdel -r user  =  Borra un usuario (‘-r’ elimina el directorio Home)\n\n* chmod  permisos  file   =  Cambia los permisos de un archivo \n\n* chmod  -R  permisos  dir  =  Cambia los permisos de un  directorio\n\n* ifconfig  =  Muestra  las interfaces de red del sistema\n\n* less =  Muestra el contenido de un archivo, permite búsquedas y movimento hacía atrás y adelante\n\n* whereis objeto_a _buscar  =  Localiza el binario, fuentes y/o librerias, y documentación de un objeto\n\n* which objeto_a_buscar =  Muestra la ruta completa de un objeto\n\n* wget  url/file   =  Descarga un archivo por medio de la url\n\n* ssh remote_username@remote_host  =  Conectarse de forma remota a un servidor u otro host por medio del usuario e ip\n\n* iptables -parametros  =  Maneja, configura  y controla el firewall del sistema  \n\n* tar -zxf  = Descomprime archivos .tar.gz  y tgz\n\n```\n\n\n#### Para más información:\n<!-- Please add any articles you think might be helpful to read before writing the article -->\n- Más de 400 comando para linux:   <a href='https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/' target='_blank' rel='nofollow'>https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/</a>\n- PDF sobre comandos de linux:  <a href='http://fcaglp.unlp.edu.ar/~observacional/manuales/tutorial_linux.pdf' target='_blank' rel='nofollow'>http://fcaglp.unlp.edu.ar/~observacional/manuales/tutorial_linux.pdf</a>\n",
+        "contentDigest": "e16960ba8b2defa2b8904cb2a3fcfb41",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "2. Comandos Necesarios para la administración de Servidores",
+        "parent": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/index.md",
+      "fields": {
+        "slug": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/"
+      }
+    },
+    "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file": {
+      "id": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file",
+      "children": [
+        "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8dee18369af1d9165c49dac10634a6fb",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md",
+      "relativePath": "arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md",
+      "extension": "md",
+      "size": 6521,
+      "prettySize": "6.52 kB",
+      "modifiedTime": "2018-02-09T18:50:26.537Z",
+      "accessTime": "2018-02-09T18:50:27.853Z",
+      "changeTime": "2018-02-09T18:50:26.537Z",
+      "birthTime": "2018-02-09T18:50:26.537Z",
+      "root": "/",
+      "dir": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 2050,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 38545755,
+      "blocks": 16,
+      "atimeMs": 1518202227852.6838,
+      "mtimeMs": 1518202226536.68,
+      "ctimeMs": 1518202226536.68,
+      "birthtimeMs": 1518202226536.68,
+      "atime": "2018-02-09T18:50:27.853Z",
+      "mtime": "2018-02-09T18:50:26.537Z",
+      "ctime": "2018-02-09T18:50:26.537Z",
+      "birthtime": "2018-02-09T18:50:26.537Z"
+    },
+    "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: 22. Configuración Openssh\n---\n## 22. Configuración Openssh\n\n\n### SSH :\n\n\nSSH (Secure Shell) es un conjunto de estándares y protocolo de red que permite establecer una comunicación a través de un canal seguro entre un cliente local y un servidor remoto. \nPara esto utiliza una llave para autenticar el servidor remoto, además utiliza criptografía para la integridad en la transferencia de los datos.\n\nEl puerto por defecto para conectarse es el 22.\n\n```\nComando para conectarse a un servidor por medio del SSH :\n\n# ssh usuario@nombre.o.ip.servidor\n\nSi se utiliza un puerto diferente del 22, solo se pone el parámetro -p , que hace referencia al puerto.\n\n# ssh -p 52341 juan@192.168.70.99\n```\n\n### SFTP :\n\nSFTP (SSH File Transfer Protocol) es un protocolo que provee funcionalidad de transferencia y manipulación de archivos a través de un flujo confiable de datos. \n\nPara acceder a través de SFTP hacia el servidor, ejecute sftp desde el sistema cliente definiendo el usuario a utilizar, una arroba y el nombre o dirección IP del servidor remoto:\n\n```\nComando :\n\n# sftp usuario@servidor\n\n\n\nSi se utiliza otro puerto distinto al 22, solo se agregan unos parámetros en el comando :\n\nsftp -o Port=52341 juan@192.168.70.99\n# \n```\n\nEn algunas distribuciones ubuntu que utilicen el Sistema de administración de Ficheros Nautilus, este puede acceder al servidor vía URL :\n\n![Nautilus ](http://www.alcancelibre.org/images/nautilus-sftp.png)\n\n\n### SCP :\n\nSCP (Secure Copy o Copia Segura) es una protocolo seguro para transferir archivos entre un anfitrión local y otro remoto, a través de SSH.\n\nEs decir es una herramienta para copiar archivos de un servidor local a uno remoto, solo utiliza cómo parámetros las direcciones ip, y el usuario, además los datos son cifrados durante la transferencia .\n\nParámetros que se pueden incluir :\n\n* -p (minúscula)\nPreserva el tiempo de modificación, tiempos de acceso y los modos del archivo original.\n* -P (mayúscula)\nEspecifica el puerto para realizar la conexión.\n* -r\nCopia en modo descendente de los directorios especificados.\n\n\n```\nComando scp :\n\nscp file  user@host:/path/   =  Copia un arhivo local a otra máquina(host) con el usuario correspondiente\n\nEjemplos :\n\nscp -p algo.txt fulano@192.168.70.99:~/\n\nscp -rp Mail fulano@192.168.70.99:/home\n\n\n```\n\n\n### OpenSSH :\n\nOpenSSH (Open Secure Shell) es una alternativa de código fuente abierto, para utilizar ssh.\n\nOpenSSH incluye servicio y clientes para los protocolos SSH, SFTP y SCP.\n\n#### Instalar OpenSSh :\n\n* Centos, Red Hat, Fedora :\n\n```yum -y install openssh openssh-server openssh-clients```\n\n* Ubuntu, Debian :\n\n```sudo apt-get install openssh-server```\n\n#### Utilizar OpenSSH como servicio :\n\n* Comandos :\n\n```\n\nVer el estado del servicio SSH :\n\nsudo service ssh status\n\n\n\nIniciar el Servicio SSH :\n\nsudo service ssh start\n\n\n\nParar el Servicio SSH :\n\nsudo service ssh stop\n\n\n\nReiniciar el Servicio SSH :\n\nsudo service ssh restart\n\n\n```\n\nPara manejar los servicios se puede utilizar el :  service o si no también se puede utilizar :  systemctl.\n\n### Configuración del Firewall para SSH :\n\nSi se está utilizando el firewall es necesario abrir los puertos que utiliza SSh :\n\n* Ejecute lo siguiente:\n```\niptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT\n```\n\n* Guarde los cambios ejecutando lo siguiente:\n```\nservice iptables save\n```\n\n* De otra manera se pude configurar el siguiente archivo /etc/sysconfig/iptables, solo se debe de agregar:\n```\n-A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT\n```\n\n* Y reinicie el servicio iptables:\n```\nservice iptables restart\n```\n\n### Archivos de configuración :\n\n* /etc/ssh/sshd_config :\nArchivo principal de configuración del servidor SSH.\n\n* /etc/ssh/ssh_config :\nArchivo principal de configuración de los clientes SSH utilizados desde el anfitrión local.\n\n* ~/.ssh/config :\nArchivo personal para cada usuario, que almacena la configuración utilizada por los clientes SSH utilizados desde el anfitrión local. Permite al usuario local utilizar una configuración distinta a la definida en el archivo /etc/ssh/ssh_config.\n\n* ~/.ssh/known_hosts :\nArchivo personal para cada usuario, el cual almacena las firmas digitales de los servidores SSH a los que se conectan los clientes. \n\n* ~/.ssh/authorized_keys :\nArchivo personal para cada usuario, el cual almacena los certificados de los clientes SSH, para permitir autenticación hacia servidores SSH sin requerir contraseña.\n\n\n### Configuración de Seguridad para SSH :\n\nEstas configuraciones son el el archivo sshd_config . \n\n* Cambiar el puerto por defecto que es el 22 : ```Port 22445```\n\n* Bloquear el acceso root en las conexiones remotas : ```PermitRootLogin no```\n\n* LoginGraceTime: Estableceremos el tiempo necesario para introducir la contraseña : ```LoginGraceTime 30```\n\n* MaxAuthTries: Número de intentos permitidos al introducir la contraseña antes de desconectarnos : ```MaxAuthTries 3```\n\n\n* MaxStartups: Número de logins simultáneos desde una IP : ```MaxStartups 3```\n\n* AllowUsers: Es crear una lista blanca de usuario. Este parámetro nos permite configurar los usuarios que podrán conectarse : ```AllowUsers user1 user2```\n\n* DenyUsers: Se crea una lista negra. Los usuarios que tengamos aquí no podrán conectarse : \t```DenyUsers  user1 user2```\n\n* AllowGroups/DenyUsers: Se crean listas pero en lugar de usuarios son de grupos.\n\n#### Para más información:\n<!-- Please add any articles you think might be helpful to read before writing the article -->\n- Configuración de OpenSSH :   <a href='http://www.alcancelibre.org/staticpages/index.php/10-como-openssh' target='_blank' rel='nofollow'>http://www.alcancelibre.org/staticpages/index.php/10-como-openssh</a>\n\n- Instalar OpenSSH :\n<a href='http://ubuntuhandbook.org/index.php/2016/04/enable-ssh-ubuntu-16-04-lts/' target='_blank' rel='nofollow'>http://ubuntuhandbook.org/index.php/2016/04/enable-ssh-ubuntu-16-04-lts/</a> \n\n- Archivos de Configuración :\n<a href='http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/s1-ssh-configfiles.html' target='_blank' rel='nofollow'>http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/s1-ssh-configfiles.html</a> \n\n- Configuración de Seguridad SSH :\n<a href='https://www.redeszone.net/seguridad-informatica/servidor-ssh-en-linux-manual-de-configuracion-para-maxima-seguridad/' target='_blank' rel='nofollow'>https://www.redeszone.net/seguridad-informatica/servidor-ssh-en-linux-manual-de-configuracion-para-maxima-seguridad/</a> \n\n\n\n\n",
+        "contentDigest": "da568d0a2cdf6a9ca9cbb39c888c8efe",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "22. Configuración Openssh",
+        "parent": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/javier/Git/guides-capacitacion-praxis/src/pages/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/index.md",
+      "fields": {
+        "slug": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/"
+      }
+    },
     "SitePage /linux/": {
       "path": "/linux/",
       "component": "/home/javier/Git/guides-capacitacion-praxis/src/templates/Article.jsx",
@@ -15062,25 +15129,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /arquitectura-sistemas-operativos-linux/22-configuracion-openssh/": {
-      "path": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/",
-      "component": "/home/javier/Git/guides-capacitacion-praxis/src/templates/Article.jsx",
-      "context": {
-        "slug": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/"
-      },
-      "componentChunkName": "page-component---src-templates-article-jsx",
-      "jsonName": "arquitectura-sistemas-operativos-linux-22-configuracion-openssh.json",
-      "internalComponentName": "ComponentArquitecturaSistemasOperativosLinux22ConfiguracionOpenssh",
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "id": "SitePage /arquitectura-sistemas-operativos-linux/22-configuracion-openssh/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "a9a6e15ad656baeb3d76e4558ddcc746",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /arquitectura-sistemas-operativos-linux/23-configuracion-ntp/": {
       "path": "/arquitectura-sistemas-operativos-linux/23-configuracion-ntp/",
       "component": "/home/javier/Git/guides-capacitacion-praxis/src/templates/Article.jsx",
@@ -15154,25 +15202,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "4f0bd5147c8adcf9b61f3d0e618bd33c",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/": {
-      "path": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/",
-      "component": "/home/javier/Git/guides-capacitacion-praxis/src/templates/Article.jsx",
-      "context": {
-        "slug": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/"
-      },
-      "componentChunkName": "page-component---src-templates-article-jsx",
-      "jsonName": "arquitectura-sistemas-operativos-linux-2-comandos-necesarios-para-administracion-de-servidores.json",
-      "internalComponentName": "ComponentArquitecturaSistemasOperativosLinux2ComandosNecesariosParaAdministracionDeServidores",
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "id": "SitePage /arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "29ab9b6bac1306c29b4d94035797e9f3",
         "owner": "internal-data-bridge"
       }
     },
@@ -17605,6 +17634,44 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "b035de378b2f2111fd7fe383b65e7db2",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/": {
+      "path": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/",
+      "component": "/home/javier/Git/guides-capacitacion-praxis/src/templates/Article.jsx",
+      "context": {
+        "slug": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/"
+      },
+      "componentChunkName": "page-component---src-templates-article-jsx",
+      "jsonName": "arquitectura-sistemas-operativos-linux-2-comandos-necesarios-para-administracion-de-servidores.json",
+      "internalComponentName": "ComponentArquitecturaSistemasOperativosLinux2ComandosNecesariosParaAdministracionDeServidores",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "id": "SitePage /arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "29ab9b6bac1306c29b4d94035797e9f3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /arquitectura-sistemas-operativos-linux/22-configuracion-openssh/": {
+      "path": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/",
+      "component": "/home/javier/Git/guides-capacitacion-praxis/src/templates/Article.jsx",
+      "context": {
+        "slug": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/"
+      },
+      "componentChunkName": "page-component---src-templates-article-jsx",
+      "jsonName": "arquitectura-sistemas-operativos-linux-22-configuracion-openssh.json",
+      "internalComponentName": "ComponentArquitecturaSistemasOperativosLinux22ConfiguracionOpenssh",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "id": "SitePage /arquitectura-sistemas-operativos-linux/22-configuracion-openssh/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a9a6e15ad656baeb3d76e4558ddcc746",
         "owner": "internal-data-bridge"
       }
     },

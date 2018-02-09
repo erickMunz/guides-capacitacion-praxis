@@ -301,11 +301,6 @@
     },
     {
         "componentChunkName": "page-component---src-templates-article-jsx",
-        "jsonName": "arquitectura-sistemas-operativos-linux-22-configuracion-openssh.json",
-        "path": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/"
-    },
-    {
-        "componentChunkName": "page-component---src-templates-article-jsx",
         "jsonName": "arquitectura-sistemas-operativos-linux-23-configuracion-ntp.json",
         "path": "/arquitectura-sistemas-operativos-linux/23-configuracion-ntp/"
     },
@@ -323,11 +318,6 @@
         "componentChunkName": "page-component---src-templates-article-jsx",
         "jsonName": "arquitectura-sistemas-operativos-linux-26-configuracion-ldap.json",
         "path": "/arquitectura-sistemas-operativos-linux/26-configuracion-ldap/"
-    },
-    {
-        "componentChunkName": "page-component---src-templates-article-jsx",
-        "jsonName": "arquitectura-sistemas-operativos-linux-2-comandos-necesarios-para-administracion-de-servidores.json",
-        "path": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/"
     },
     {
         "componentChunkName": "page-component---src-templates-article-jsx",
@@ -968,6 +958,16 @@
         "componentChunkName": "page-component---src-templates-article-jsx",
         "jsonName": "tools-calculators-circle-calculator.json",
         "path": "/tools/calculators/circle-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-2-comandos-necesarios-para-administracion-de-servidores.json",
+        "path": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-22-configuracion-openssh.json",
+        "path": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/"
     },
     {
         "componentChunkName": "page-component---src-pages-404-jsx",

@@ -987,7 +987,7 @@
     "path": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "20. Configuración Openssh"
+    "title": "22. Configuración Openssh"
   },
   "/git/git-rebase": {
     "children": [],
@@ -1097,7 +1097,7 @@
     "path": "/arquitectura-sistemas-operativos-linux/24-configuracion-nfs",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "Funciones Básicas Vi/Vim"
+    "title": "24. Configuración NFS"
   },
   "/git/git-reset": {
     "children": [],

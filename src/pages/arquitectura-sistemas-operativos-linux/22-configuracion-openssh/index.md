@@ -1,7 +1,7 @@
 ---
-title: 20. Configuración Openssh
+title: 22. Configuración Openssh
 ---
-## 20. Configuración Openssh
+## 22. Configuración Openssh
 
 
 ### SSH :
