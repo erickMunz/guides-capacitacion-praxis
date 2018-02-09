@@ -1,0 +1,16 @@
+{
+    "data": {
+        "markdownRemark": {
+            "html": "<h2>RunLevels Linux</h2>\n<p>En linux se tienen diferentes estados en los que puede ser inicialziado el sistema operativo.  Estos estados se identifica con números del 0 al 6. </p>\n<p>Nivel 0: Halt </p>\n<p>Este nivel se encarga de apagar el sistema por completo. </p>\n<p>Nivel 1: Monousuario </p>\n<p>Sólo se permite ingresar al sistema operativo con el usuario root. comunmente se ingresa a este nivel para verificar el estado del sistema, o brindar mantenimiento. No existe interfaz gráfica ni configuraciones de red. </p>\n<p>Nivel 2: Multiusuario</p>\n<p>Sólo se permite ingresar al sistema operativo con el usuario root, para acceder a todos los sistemas de archivos disponibles. No hay configuraciones de red. </p>\n<p>Nivel 3: Multiusuario completo </p>\n<p>Todos los usuarios pueden ingresar a este nivel, y a todas las configuraciones, pero no cuenta con un entorno gráfico. </p>\n<p>Nivel 4: - </p>\n<p>Este nivel no se utiliza, pero puede ser personalizado, segun las necesidades del usuario. </p>\n<p>Nivel 5: Multiusuario con entorno gráfico</p>\n<p>Todos los usuarios pueden ingresar a este nivel, y a todas las configuraciones.\nComunmente los sistemas operativos inicializan en este nivel. </p>\n<p>Nivel 6: Reboot</p>\n<p>Este nivel permite reiniciar el sistema de manera inmediata. </p>\n<hr>\n<h2>Comandos para modificar el nivel de arranque del sistema.</h2>\n<p>Para conocer en que nivel se encuentra nuestra ejecución actual, escribimos en una terminal: </p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-none\"><code>$ who -r</code></pre>\n      </div>\n<p>Ejemplo: al ejecutar el comando anterior tenemos la leyenda run-level, seguido de un número 5, este es el que indica el nivel en que se encuentra el arranque actual del sistema.</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-none\"><code>run-level' 5 2012-06-16 11:08</code></pre>\n      </div>\n<p>El usuario administrador puede cambiar en cualquier momento de nivel utilizando el siguiente comando: </p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-none\"><code># init 5</code></pre>\n      </div>\n<p>Nota: cambiar el número, según desee acceder al nivel. </p>\n<p>Aparte de editar el archivo /etc/inittab, el administrador puede cambiar en cualquier momento el valor del nivel de ejecución con el comando init. Una instrucción como la siguiente:</p>\n<p><a href=\"https://docs.oracle.com/cd/E24842_01/html/E23289/hbrunlevels-13026.html\">https://docs.oracle.com/cd/E24842_01/html/E23289/hbrunlevels-13026.html</a></p>\n<p><a href=\"http://www.josoroma.com/run-levels-and-services\">http://www.josoroma.com/run-levels-and-services</a></p>\n<p><a href=\"http://aprendiendo-software.blogspot.mx/2012/01/runlevels-niveles-de-ejecucion.html\">http://aprendiendo-software.blogspot.mx/2012/01/runlevels-niveles-de-ejecucion.html</a></p>",
+            "fields": {
+                "slug": "/arquitectura-sistemas-operativos-linux/5-sistema-de-nivel-de-ejecucion/"
+            },
+            "frontmatter": {
+                "title": "5-Sistema de nivel de ejecución"
+            }
+        }
+    },
+    "pathContext": {
+        "slug": "/arquitectura-sistemas-operativos-linux/5-sistema-de-nivel-de-ejecucion/"
+    }
+}

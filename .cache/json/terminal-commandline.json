@@ -1,0 +1,16 @@
+{
+    "data": {
+        "markdownRemark": {
+            "html": "<h1>Terminal/Command Prompt</h1>",
+            "fields": {
+                "slug": "/terminal-commandline/"
+            },
+            "frontmatter": {
+                "title": "Terminal/Command Prompt"
+            }
+        }
+    },
+    "pathContext": {
+        "slug": "/terminal-commandline/"
+    }
+}

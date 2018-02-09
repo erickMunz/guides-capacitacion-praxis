@@ -1,0 +1,16 @@
+{
+    "data": {
+        "markdownRemark": {
+            "html": "<h2>16. Uso de Yum</h2>\n<p>Yum es un paquete administrador de software(software package manager). Es una herramienta muy útil para instalar, actualizar y remover paquetes junto con sus dependencias en distribuciones Linux basados en RPM (redhat, fedora, centos, etc.).</p>\n<p>En cambio los sistemas basado en ubuntu o debian utilizan una paquetería apt, para instalar, actualizar, remover, etc.</p>\n<h3>Principales archivos que utiliza Yum :</h3>\n<ul>\n<li>/etc/yum.conf - archivo de configuración.</li>\n<li>/etc/yum.repos.d - directorio de depósitos o repositorios.</li>\n<li>/var/log/yum.log - archivo de bitácora.</li>\n</ul>\n<h3>Comandos Principales de Yum :</h3>\n<p><img src=\"https://image.ibb.co/kbCv5c/yum.png\" alt=\"Comandos \"></p>\n<h4>Para más información:</h4>\n<!-- Please add any articles you think might be helpful to read before writing the article -->\n<ul>\n<li>\n<p>Yum:   <a href='http://www.alcancelibre.org/staticpages/index.php/como-yum' target='_blank' rel='nofollow'>http://www.alcancelibre.org/staticpages/index.php/como-yum</a></p>\n</li>\n<li>\n<p>Guia Yum\n<a href='https://www.linuxtotal.com.mx/index.php?cont=info_admon_020' target='_blank' rel='nofollow'>https://www.linuxtotal.com.mx/index.php?cont=info<em>admon</em>020</a> </p>\n</li>\n</ul>",
+            "fields": {
+                "slug": "/arquitectura-sistemas-operativos-linux/16-uso-de-yum/"
+            },
+            "frontmatter": {
+                "title": "16. Uso de Yum"
+            }
+        }
+    },
+    "pathContext": {
+        "slug": "/arquitectura-sistemas-operativos-linux/16-uso-de-yum/"
+    }
+}

@@ -1,0 +1,992 @@
+[
+    {
+        "componentChunkName": "page-component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux.json",
+        "path": "/linux/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "terminal-commandline.json",
+        "path": "/terminal-commandline/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux.json",
+        "path": "/arquitectura-sistemas-operativos-linux/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "license.json",
+        "path": "/LICENSE/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git.json",
+        "path": "/git/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools.json",
+        "path": "/tools/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning.json",
+        "path": "/machine-learning/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "vim.json",
+        "path": "/vim/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-10-simple-and-useful-linux-commands.json",
+        "path": "/linux/10-simple-and-useful-linux-commands/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-how-linux-system-boots-up-6-step-description.json",
+        "path": "/linux/How linux system boots up - 6 step description/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-setting-up-yum-repositories-in-red-hat-linux.json",
+        "path": "/linux/Setting Up Yum Repositories in RedHat Linux/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-basic-linux-commands.json",
+        "path": "/linux/basic-linux-commands/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-create-file-with-sepcific-size.json",
+        "path": "/linux/create-file-with-sepcific-size/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-how-to-extract-or-decompress-a-compressed-file-in-linux.json",
+        "path": "/linux/how-to-extract-or-decompress-a-compressed-file-in-linux/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-advantages-of-linux.json",
+        "path": "/linux/advantages-of-linux/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-how-to-download-files-with-wget.json",
+        "path": "/linux/how-to-download-files-with-wget/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-how-to-use-sftp-to-securely-transfer-files-with-a-remote-server.json",
+        "path": "/linux/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-install-and-configure-apache-server-in-linux.json",
+        "path": "/linux/install-and-configure-apache-server-in-linux/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-installing-cli-tools-developers-should-not-live-without-on-linux-and-mac.json",
+        "path": "/linux/installing-cli-tools-developers-should-not-live-without-on-linux-and-mac/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-install-and-configure-ftp-server-in-linux-redhat.json",
+        "path": "/linux/install-and-configure-ftp-server-in-linux-redhat/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-linux-brief-history.json",
+        "path": "/linux/linux-brief-history/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-local-lamp-server-on-ubuntu.json",
+        "path": "/linux/local-lamp-server-on-ubuntu/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-shell-scripting.json",
+        "path": "/linux/shell-scripting/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-origins-of-linux-and-the-free-software-movement.json",
+        "path": "/linux/origins-of-linux-and-the-free-software-movement/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-some-usages-for-linux.json",
+        "path": "/linux/some-usages-for-linux/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-user-management-on-linux.json",
+        "path": "/linux/user-management-on-linux/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-using-the-find-command.json",
+        "path": "/linux/using-the-find-command/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-gui-options.json",
+        "path": "/git/GUI-options/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-authenticate-with-github-using-ssh.json",
+        "path": "/git/authenticate-with-github-using-ssh/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-difference-git-github.json",
+        "path": "/git/difference-git-github/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-bisect.json",
+        "path": "/git/git-bisect/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-branch.json",
+        "path": "/git/git-branch/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "linux-the-command-prompt.json",
+        "path": "/linux/the-command-prompt/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-checkout.json",
+        "path": "/git/git-checkout/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-hosting.json",
+        "path": "/git/git-hosting/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-clone.json",
+        "path": "/git/git-clone/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-commit.json",
+        "path": "/git/git-commit/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-merge.json",
+        "path": "/git/git-merge/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-log.json",
+        "path": "/git/git-log/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-push.json",
+        "path": "/git/git-push/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-pull.json",
+        "path": "/git/git-pull/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-rebase.json",
+        "path": "/git/git-rebase/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-remote.json",
+        "path": "/git/git-remote/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-reset.json",
+        "path": "/git/git-reset/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-status.json",
+        "path": "/git/git-status/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-git-stash.json",
+        "path": "/git/git-stash/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-gitignore.json",
+        "path": "/git/gitignore/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "git-tagging-in-git.json",
+        "path": "/git/tagging-in-git/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-1-funciones-basicas-vim.json",
+        "path": "/arquitectura-sistemas-operativos-linux/1-funciones-basicas-vim/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-10-optimizacion-de-particiones-ext-4.json",
+        "path": "/arquitectura-sistemas-operativos-linux/10-optimizacion-de-particiones-ext4/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-11-uso-de-sudo.json",
+        "path": "/arquitectura-sistemas-operativos-linux/11-uso-de-sudo/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-13-gestion-de-procesos-y-trabajos.json",
+        "path": "/arquitectura-sistemas-operativos-linux/13-gestion-de-procesos-y-trabajos/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-15-listas-de-control-de-acceso.json",
+        "path": "/arquitectura-sistemas-operativos-linux/15-listas-de-control-de-acceso/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-16-uso-de-yum.json",
+        "path": "/arquitectura-sistemas-operativos-linux/16-uso-de-yum/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-17-uso-de-atd-crond.json",
+        "path": "/arquitectura-sistemas-operativos-linux/17-uso-de-atd-crond/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-18-uso-de-tcp-ip-y-configuraciones-de-red.json",
+        "path": "/arquitectura-sistemas-operativos-linux/18-uso-de-tcp-ip-y-configuraciones-de-red/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-19-configuracion-vlans.json",
+        "path": "/arquitectura-sistemas-operativos-linux/19-configuracion-vlans/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-14-permisos-de-sistemas-de-archivos.json",
+        "path": "/arquitectura-sistemas-operativos-linux/14-permisos-de-sistemas-de-archivos/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-21-protocolo-dns.json",
+        "path": "/arquitectura-sistemas-operativos-linux/21-protocolo-dns/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-22-configuracion-openssh.json",
+        "path": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-23-configuracion-ntp.json",
+        "path": "/arquitectura-sistemas-operativos-linux/23-configuracion-ntp/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-24-configuracion-nfs.json",
+        "path": "/arquitectura-sistemas-operativos-linux/24-configuracion-nfs/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-25-configuracion-samba.json",
+        "path": "/arquitectura-sistemas-operativos-linux/25-configuracion-samba/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-26-configuracion-ldap.json",
+        "path": "/arquitectura-sistemas-operativos-linux/26-configuracion-ldap/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-2-comandos-necesarios-para-administracion-de-servidores.json",
+        "path": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-27-configuracion-rsyslog.json",
+        "path": "/arquitectura-sistemas-operativos-linux/27-configuracion-rsyslog/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-12-gestion-de-usuario.json",
+        "path": "/arquitectura-sistemas-operativos-linux/12-gestion-de-usuario/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-28-programacion-bash.json",
+        "path": "/arquitectura-sistemas-operativos-linux/28-programacion-bash/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-3-ajustes-de-horario.json",
+        "path": "/arquitectura-sistemas-operativos-linux/3-ajustes-de-horario/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-5-sistema-de-nivel-de-ejecucion.json",
+        "path": "/arquitectura-sistemas-operativos-linux/5-sistema-de-nivel-de-ejecucion/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-4-planificadores-entrada-salida.json",
+        "path": "/arquitectura-sistemas-operativos-linux/4-planificadores-entrada-salida/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-6-gestion-de-servicios.json",
+        "path": "/arquitectura-sistemas-operativos-linux/6-gestion-de-servicios/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-7-system-d.json",
+        "path": "/arquitectura-sistemas-operativos-linux/7-systemD/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-8-gestion-de-memoria-de-intercambio.json",
+        "path": "/arquitectura-sistemas-operativos-linux/8-gestion-de-memoria-de-intercambio/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-9-gestion-de-volumenes-logicos.json",
+        "path": "/arquitectura-sistemas-operativos-linux/9-gestion-de-volumenes-logicos/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-yolo-for-object-detection.json",
+        "path": "/machine-learning/YOLO for object detection/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "terminal-commandline-macos-terminal.json",
+        "path": "/terminal-commandline/macos-terminal/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-bayes-classifier.json",
+        "path": "/machine-learning/bayes-classifier/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-backpropagation.json",
+        "path": "/machine-learning/backpropagation/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-brownian-motion.json",
+        "path": "/machine-learning/brownian-motion/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-clustering-algorithms.json",
+        "path": "/machine-learning/clustering-algorithms/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-dimension-reduction.json",
+        "path": "/machine-learning/dimension-reduction/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-expectation-maximization-algorithm.json",
+        "path": "/machine-learning/expectation-maximization-algorithm/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-gaussian-process.json",
+        "path": "/machine-learning/gaussian-process/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-deep-learning.json",
+        "path": "/machine-learning/deep-learning/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-feature-engineering.json",
+        "path": "/machine-learning/feature-engineering/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-glossary.json",
+        "path": "/machine-learning/glossary/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-linear-regression.json",
+        "path": "/machine-learning/linear-regression/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-logistic-regression.json",
+        "path": "/machine-learning/logistic-regression/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-latent-dirichlet-allocation.json",
+        "path": "/machine-learning/latent-dirichlet-allocation/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-monte-carlo.json",
+        "path": "/machine-learning/monte-carlo/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-neural-networks.json",
+        "path": "/machine-learning/neural-networks/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-random-forest.json",
+        "path": "/machine-learning/random-forest/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles.json",
+        "path": "/machine-learning/principles/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principal-component-analysis.json",
+        "path": "/machine-learning/principal-component-analysis/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-stochastic-process.json",
+        "path": "/machine-learning/stochastic-process/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-reinforcement-learning.json",
+        "path": "/machine-learning/reinforcement-learning/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-supervised-learning.json",
+        "path": "/machine-learning/supervised-learning/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-unsupervised-learning.json",
+        "path": "/machine-learning/unsupervised-learning/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-support-vector-machine.json",
+        "path": "/machine-learning/support-vector-machine/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-binary-decimal-hexadecimal-converter.json",
+        "path": "/tools/binary-decimal-hexadecimal-converter/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-color-picker.json",
+        "path": "/tools/color-picker/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-image-editor.json",
+        "path": "/tools/image-editor/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-prime-number-chart.json",
+        "path": "/tools/prime-number-chart/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators.json",
+        "path": "/tools/calculators/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-prime-number-generator.json",
+        "path": "/tools/prime-number-generator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-source-code-editors.json",
+        "path": "/tools/source-code-editors/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "vim-copy-and-paste.json",
+        "path": "/vim/copy-and-paste/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "vim-macros.json",
+        "path": "/vim/macros/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "vim-modes.json",
+        "path": "/vim/modes/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "vim-search-and-replace.json",
+        "path": "/vim/search-and-replace/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "vim-split.json",
+        "path": "/vim/split/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "vim-motions.json",
+        "path": "/vim/motions/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "vim-useful-commands.json",
+        "path": "/vim/useful-commands/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "vim-vundle.json",
+        "path": "/vim/vundle/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles-feature-engineering-is-the-key.json",
+        "path": "/machine-learning/principles/feature-engineering-is-the-key/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles-correlation-does-not-imply-causation.json",
+        "path": "/machine-learning/principles/correlation-does-not-imply-causation/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-neural-networks-convolutional-neural-networks.json",
+        "path": "/machine-learning/neural-networks/convolutional-neural-networks/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles-data-alone-is-not-enough.json",
+        "path": "/machine-learning/principles/data-alone-is-not-enough/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles-intuition-fails-in-high-dimensions.json",
+        "path": "/machine-learning/principles/intuition-fails-in-high-dimensions/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles-its-generalization-that-counts.json",
+        "path": "/machine-learning/principles/its-generalization-that-counts/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles-learn-many-models-not-just-one.json",
+        "path": "/machine-learning/principles/learn-many-models-not-just-one/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles-learning-equals-representation-evaluation-optimization.json",
+        "path": "/machine-learning/principles/learning-equals-representation-evaluation-optimization/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles-more-data-beats-a-cleverer-algorithm.json",
+        "path": "/machine-learning/principles/more-data-beats-a-cleverer-algorithm/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles-overfitting-has-many-faces.json",
+        "path": "/machine-learning/principles/overfitting-has-many-faces/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles-representable-does-not-imply-learnable.json",
+        "path": "/machine-learning/principles/representable-does-not-imply-learnable/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "arquitectura-sistemas-operativos-linux-20-iptables.json",
+        "path": "/arquitectura-sistemas-operativos-linux/20-iptables/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles-theoretical-guarantees-are-not-what-they-seem.json",
+        "path": "/machine-learning/principles/theoretical-guarantees-are-not-what-they-seem/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "machine-learning-principles-simplicity-does-not-imply-accuracy.json",
+        "path": "/machine-learning/principles/simplicity-does-not-imply-accuracy/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-amortization-calculator.json",
+        "path": "/tools/calculators/amortization-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-area-calculator.json",
+        "path": "/tools/calculators/area-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-401-k-calculator.json",
+        "path": "/tools/calculators/401k-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-apr-calculator.json",
+        "path": "/tools/calculators/apr-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-auto-lease-calculator.json",
+        "path": "/tools/calculators/auto-lease-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-binary-calculator.json",
+        "path": "/tools/calculators/binary-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-btu-calculator.json",
+        "path": "/tools/calculators/btu-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "vim-navigation.json",
+        "path": "/vim/navigation/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-calorie-calculator.json",
+        "path": "/tools/calculators/calorie-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-coding-bootcamp-cost-calculator.json",
+        "path": "/tools/calculators/coding-bootcamp-cost-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-combinations-and-permutations-calculator.json",
+        "path": "/tools/calculators/combinations-and-permutations-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-complex-number-calculator.json",
+        "path": "/tools/calculators/complex-number-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-conception-calculator.json",
+        "path": "/tools/calculators/conception-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-confidence-interval-calculator.json",
+        "path": "/tools/calculators/confidence-interval-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-conversion-calculator.json",
+        "path": "/tools/calculators/conversion-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-date-calculator.json",
+        "path": "/tools/calculators/date-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-density-calculator.json",
+        "path": "/tools/calculators/density-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-exponent-calculator.json",
+        "path": "/tools/calculators/exponent-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-finance-calculator.json",
+        "path": "/tools/calculators/finance-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-financial-calculator.json",
+        "path": "/tools/calculators/financial-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-fraction-calculator.json",
+        "path": "/tools/calculators/fraction-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-future-value-calculator.json",
+        "path": "/tools/calculators/future-value-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-gpa-calculator.json",
+        "path": "/tools/calculators/gpa-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-greatest-common-factor-calculator.json",
+        "path": "/tools/calculators/greatest-common-factor-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-half-life-calculator.json",
+        "path": "/tools/calculators/half-life-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-hex-calculator.json",
+        "path": "/tools/calculators/hex-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-income-tax-calculator.json",
+        "path": "/tools/calculators/income-tax-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-inflation-calculator.json",
+        "path": "/tools/calculators/inflation-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-interest-calculator.json",
+        "path": "/tools/calculators/interest-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-interest-rate-calculator.json",
+        "path": "/tools/calculators/interest-rate-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-ip-subnet-calculator.json",
+        "path": "/tools/calculators/ip-subnet-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-least-common-multiple-calculator.json",
+        "path": "/tools/calculators/least-common-multiple-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-log-calculator.json",
+        "path": "/tools/calculators/log-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-matrix-calculator.json",
+        "path": "/tools/calculators/matrix-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-mean-median-mode-range-calculator.json",
+        "path": "/tools/calculators/mean-median-mode-range-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-mortgage-calculator.json",
+        "path": "/tools/calculators/mortgage-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-mortgage-payoff-calculator.json",
+        "path": "/tools/calculators/mortgage-payoff-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-number-sequence-calculator.json",
+        "path": "/tools/calculators/number-sequence-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-order-of-operations-calculator.json",
+        "path": "/tools/calculators/order-of-operations-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-percent-error-calculator.json",
+        "path": "/tools/calculators/percent-error-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-percentage-calculator.json",
+        "path": "/tools/calculators/percentage-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-present-value-calculator.json",
+        "path": "/tools/calculators/present-value-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-probability-calculator.json",
+        "path": "/tools/calculators/probability-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-prime-number-calculator.json",
+        "path": "/tools/calculators/prime-number-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-refinance-calculator.json",
+        "path": "/tools/calculators/refinance-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-ratio-calculator.json",
+        "path": "/tools/calculators/ratio-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-return-on-investment-roi-calculator.json",
+        "path": "/tools/calculators/return-on-investment-roi-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-salary-calculator.json",
+        "path": "/tools/calculators/salary-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-sample-size-calculator.json",
+        "path": "/tools/calculators/sample-size-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-sales-tax-calculator.json",
+        "path": "/tools/calculators/sales-tax-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-scientific-calculator.json",
+        "path": "/tools/calculators/scientific-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-sigma-sum-calculator.json",
+        "path": "/tools/calculators/sigma-sum-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-slope-calculator.json",
+        "path": "/tools/calculators/slope-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-square-footage-calculator.json",
+        "path": "/tools/calculators/square-footage-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-standard-deviation-calculator.json",
+        "path": "/tools/calculators/standard-deviation-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-surface-area-calculator.json",
+        "path": "/tools/calculators/surface-area-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-take-home-paycheck-calculator.json",
+        "path": "/tools/calculators/take-home-paycheck-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-time-zone-calculator.json",
+        "path": "/tools/calculators/time-zone-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-tip-calculator.json",
+        "path": "/tools/calculators/tip-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-triangle-calculator.json",
+        "path": "/tools/calculators/triangle-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-vector-calculator.json",
+        "path": "/tools/calculators/vector-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-volume-calculator.json",
+        "path": "/tools/calculators/volume-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-voltage-drop-calculator.json",
+        "path": "/tools/calculators/voltage-drop-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-article-jsx",
+        "jsonName": "tools-calculators-circle-calculator.json",
+        "path": "/tools/calculators/circle-calculator/"
+    },
+    {
+        "componentChunkName": "page-component---src-pages-404-jsx",
+        "jsonName": "404.json",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "page-component---src-pages-index-jsx",
+        "jsonName": "index.json",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "page-component---src-pages-search-jsx",
+        "jsonName": "search.json",
+        "path": "/search/"
+    },
+    {
+        "componentChunkName": "page-component---src-pages-404-jsx",
+        "jsonName": "404-html.json",
+        "path": "/404.html"
+    }
+]

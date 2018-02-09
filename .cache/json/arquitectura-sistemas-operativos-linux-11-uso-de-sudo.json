@@ -1,0 +1,16 @@
+{
+    "data": {
+        "markdownRemark": {
+            "html": "<h2>Uso de sudo</h2>\n<p>En linux se tiene un administrador(root), el cual es capaz de manipular todo el sistema, sin importar los daños que este pueda crear, por este “problema”, se requirió implementar otra manera de que el usuario tuviera acceso a toda la administración del sistema, pero teniendo en cuenta que algunas operaciones no podría acceder a ella por seguridad del sistema completo. </p>\n<p>Por lo que el administrador que se crea en primera instacia cuando se instala por primera vez el sistema operativo, es capaz de tener la herramienta sudo, que le permite administrar todo el sistema  para poder ejecutar casi todos los comandos de administracion del sistema,así guardando su integridad en lo mayor posible. </p>\n<p>De acuerdo a la configuración del archivo /etc/sudoers, es dónde  se determina quien está autorizado para utilizar sudo. </p>\n<p>Para seguridad, este modo requiere que el usuario ingrese su contraseña como sudo(la cual es diferente a la de root). </p>\n<h2>Instalación de sudo</h2>\n<p>Ingresamos a una terminal e ingresamos como root con el siguiente comando:</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-none\"><code>su</code></pre>\n      </div>\n<p>Instalar el paquete de sudo: </p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-none\"><code>apt-get install sudo</code></pre>\n      </div>\n<h2>Agregar nuevo usuario administrador</h2>\n<p>Para agregar un nuevo usuario es necesario ejecutar el siguiente comando en terminal: </p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-none\"><code>sudo adduser nuevo_usuario \nNota: cambiar \"nuevo_usuario\", por el nombre del usuario que quiere ser nuevo administrador.</code></pre>\n      </div>\n<p>Brindar los permisos al nuevo usuario: </p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-none\"><code> sudo adduser nuevo_usuario sudo\n Nota: cambiar \"nuevo_usuario\", por el nombre del usuario que quiere ser nuevo administrador.</code></pre>\n      </div>\n<p> Para mayor información sobre edición de usuarios administradores: <a href=\"https://geekland.eu/configurar-sudo-en-linux/\">https://geekland.eu/configurar-sudo-en-linux/</a></p>",
+            "fields": {
+                "slug": "/arquitectura-sistemas-operativos-linux/11-uso-de-sudo/"
+            },
+            "frontmatter": {
+                "title": "11-Uso de sudo"
+            }
+        }
+    },
+    "pathContext": {
+        "slug": "/arquitectura-sistemas-operativos-linux/11-uso-de-sudo/"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "data": {
+        "markdownRemark": {
+            "html": "<h2>Logical Volume Manager(LVM)</h2>\n<p>La gestión de volúmenes lógicos(LVM), es un método que nos permite localizar el espacio que hay en un disco duro en volúmenes lógicos que pueden ser redimensionados, soportado por Linux. </p>\n<p>Si se tiene un disco el cual ha sido particionado en 4, los cuales cada una de estas particiones ha llegado a su totalidad de su capacidad, podríamos aumentar su volúmen lógico  con el espacio libre de diferentes discos físicos, sin afectar los archivos que cada sección contiene. </p>\n<p>Los volúmenes físicos que se manejan, también son combinados en grupos de volúmenes lógicos a exepción de la partición boot, ya que es el gestor de arranque principal. </p>\n<p><img src=\"http://web.mit.edu/rhel-doc/3/rhel-sag-es-3/figs/lvmintro/lvg.png\" alt=\"LVM\"></p>\n<h2>Gestión de volúmenes con LVM en Ubuntu</h2>\n<p>Instalamos LVM2 siendo usuarios root: </p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-none\"><code># apt-get install lvm2\n\n# apt-get install system-config-lvm</code></pre>\n      </div>\n<p>Para extender un volumen lógico damos el siguiente lógicos: </p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-none\"><code>$ sudo lvextend -L[tamanio] /dev/VG/LV</code></pre>\n      </div>\n<p>Así como tambien es necesario notificar al FileSystem(es el encargado de administrar el uso de memorias):</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-none\"><code>$ sudo resize2fs /dev/VG/LV</code></pre>\n      </div>\n<p>Para mayor información acerca de LVM: <a href=\"http://web.mit.edu/rhel-doc/3/rhel-sag-es-3/ch-lvm-intro.html\">http://web.mit.edu/rhel-doc/3/rhel-sag-es-3/ch-lvm-intro.html</a></p>\n<p>Para instalar LVM:  <a href=\"http://www.ubuntu-es.org/node/40557#.Wnt9xea71uQ\">http://www.ubuntu-es.org/node/40557#.Wnt9xea71uQ</a></p>",
+            "fields": {
+                "slug": "/arquitectura-sistemas-operativos-linux/9-gestion-de-volumenes-logicos/"
+            },
+            "frontmatter": {
+                "title": "9-Gestión de volúmenes lógicos"
+            }
+        }
+    },
+    "pathContext": {
+        "slug": "/arquitectura-sistemas-operativos-linux/9-gestion-de-volumenes-logicos/"
+    }
+}
