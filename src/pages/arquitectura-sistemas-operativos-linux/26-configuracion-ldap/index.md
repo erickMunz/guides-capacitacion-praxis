@@ -21,32 +21,84 @@ Centos, Fedora, Red Hat, Oracle Linux :
 
 ```
 
-#### Configurar la contraseña de root de LDAP :
-Para configurar la contraseña de root, se ejecuta el siguiente comando :
+Una vez que se se  ejecuta el comando de instalación aparece la siguiente ventana, nos pide que asignemos
+una contraseña de administrador :
+
+
+
+![Configuración LDAP ](https://image.ibb.co/b4exbS/sp1.png)
+
+
+
+Luego nos muestra otra ventana que nos pide de nuevo la contraseña :
+
+![Configuración LDAP ](https://image.ibb.co/fndZO7/sp2.png)
+
+
+Una vez ingresado la contraseña, continua la instalación :
+
+
+![Configuración LDAP  ](https://image.ibb.co/kp7iGS/sp3.png)
+
+
+
+
+### Cómo funciona LDAP :
+
+El  servicio  de  directorio LDAP  se  basa  en  un modelo  cliente-servidor. 
+Uno  o más  servidores LDAP contienen los datos que conforman el árbol del directorio LDAP o base de datos troncal. el cliente LDAP se conecta con el servidor LDAP y le hace una consulta. El servidor contesta con la respuesta correspondiente, o bien con una indicación de donde puede el cliente hallar más información.
+
+
+
+### Arbol de directorio LDAP :
+
+Un árbol de directorio no es nada más que una manera organizada de proveer contenedores para almacenar diferentes tipos de información.
+
+
+### Configuración básica de OpenLDAP :
+
+Dentro del archivo, añadimos una nueva línea que relacione la dirección IP estática del servid
+
 ```
-# slappasswd
-```
+Abrimos el archivo :
 
-Y tiene que mostrar algo parecido a esto :
-
-```
-[root @ server ~] # slappasswd
-Nueva contraseña: 
-Re-ingrese nueva contraseña: 
-{SSHA} d / thexcQUuSfe3rx3gRaEhHpNJ52N8D3
-[root @ server ~] #
+root@javier-orta:/etc# nano /etc/hosts
 
 ```
 
-#### Configurar el servidor OpenLDAP:
+Dentro del archivo, añadimos una nueva línea que relacione la dirección IP estática del servidor :
 
-Los archivos de configuración de los servidores OpenLDAP se encuentran en /etc/openldap/slapd.d/
+```
+  GNU nano 2.5.3                                       Archivo: /etc/hosts                                                                            Modificado  
 
-Se deben de modificar las variables:
+127.0.0.1       localhost
+127.0.1.1       javier-orta
 
-* olcSuffix - Sufijo de base de datos, es el nombre de dominio para el cual el servidor LDAP proporciona la información.
+ip_static       hostname
 
-* olcRootDN : entrada del nombre distinguido de raíz (DN) para el usuario que tiene acceso sin restricciones para realizar todas las actividades de administración en LDAP, como un usuario raíz.
+```
 
-* olcRootPW - Contraseña para el RootDN anterior.
+
+
+
+
+
+De forma predeterminada, slapd se configura con las mínimas opciones necesarias para que el demonio funcione de forma correcta.
+
+Para una Configuración más específica se utiliza otras herramientas y otros comandos.
+
+
+#### Para más información:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+- Instalar y configurar OpenLDAP en el servidor Ubuntu :   <a href='http://somebooks.es/12-7-instalar-y-configurar-openldap-en-el-servidor-ubuntu/' target='_blank' rel='nofollow'>http://somebooks.es/12-7-instalar-y-configurar-openldap-en-el-servidor-ubuntu/</a>
+
+- Configuración del protocolo TCP/IP :
+<a href='http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/s1-ldap-quickstart.html' target='_blank' rel='nofollow'>http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/s1-ldap-quickstart.html</a> 
+
+- Cómo configurar LDAP en Ubuntu Server o Debian :
+<a href='https://www.dragonjar.org/como-configurar-ldap-en-ubuntu-server-o-debian.xhtml' target='_blank' rel='nofollow'>https://www.dragonjar.org/como-configurar-ldap-en-ubuntu-server-o-debian.xhtml</a> 
+
+
+
+
 
