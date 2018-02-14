@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+#Directorios de cache
+.cache/
+.cache/*
+*.cache/
