@@ -71,4 +71,5 @@ kill -15 (SigTerm). Termina el proceso.
 ```
 
 Para conocer más comandos de gestión de procesos:  <a href='http://losteatinos.com/files/ISO/Introduccion_a_la_gestion_de_procesos_en_Linux.pdf' target='_blank' rel='nofollow'>http://losteatinos.com/files/ISO/Introduccion_a_la_gestion_de_procesos_en_Linux.pdf</a>
+ok
 
