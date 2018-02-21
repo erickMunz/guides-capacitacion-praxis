@@ -35,7 +35,35 @@ $ sudo docker ps
 ```
 
 Para realizar una prueba entre Productores y consumidores necesitamos encontrar las IP del contenedor de Zookeeper y la de Kafka. Por lo que se utilizan los siguientes comandos: 
-
+```
 export ZK_IP=$(sudo docker inspect --format '{{ .NetworkSettings.IPAddress }}' zookeeper)
 
 export KAFKA_IP=$(sudo docker inspect --format '{{ .NetworkSettings.IPAddress }}' kafka)
+```
+
+## Logs en Kafka 
+Para poder visualizar los logs de Kafka lo realizamos con el siguiente comando de docker: 
+```
+sudo docker logs -f kafka
+```	
+
+## Parar y remover los contenedores de Docker
+Comando para parar el contenedor de Kafka: 
+```	
+sudo docker stop kafka
+```	
+Para remover el contenedor de Kafka: 
+```	
+sudo docker rm kafka
+```	
+
+Comando para parar el contenedor de Zookeeper: 
+```	
+sudo docker stop zookeeper
+```	
+Para remover el contenedor de Zookeeper:
+```	
+sudo docker rm zookeeper
+```	
+
+Para mayor información consultar el libro: Vohra, Deepak (2016) Pro Docker. Using Apache Kafka (pp.185-194)
