@@ -34,20 +34,3 @@ Elasticsearch cuenta con herramientas como:
 ## Beats
 Adicionalmente elasticsearch cuenta con Beats, que son agentes  para subir información especifica a elasticsearch, tales como archivos, tramas. etc. para mas información:
 https://www.elastic.co/products/beats
-
-## ¿Como lo instalo?
-
-La instalación pura de elasticsearch se puede hacer de dos formas:
-
- - Zip o Servicio 
- 
-```
-https://www.elastic.co/downloads/elasticsearch
-```
- - Docker 
- ```
-https://www.elastic.co/downloads/elasticsearch
-```
-
-
-
