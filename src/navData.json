@@ -1,4 +1,64 @@
 {
+  "/Kafka": {
+    "children": [
+      "1-fundamentos kafka",
+      "1-fundamentos-kafka",
+      "2-instalacion-standalone",
+      "3-instalacion-cluster",
+      "4-creacion-de-topicos",
+      "5-kafka-streams",
+      "6-troubleshooting"
+    ],
+    "dashedName": "kafka",
+    "hasChildren": true,
+    "isStubbed": false,
+    "path": "/Kafka",
+    "parent": "pages",
+    "parentPath": "",
+    "title": "Kafka"
+  },
+  "/Kafka/1-Fundamentos Kafka": {
+    "children": [],
+    "dashedName": "1-fundamentos kafka",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Kafka/1-Fundamentos Kafka",
+    "parent": "Kafka",
+    "parentPath": "/Kafka",
+    "title": "1-Fundamentos de Kafka"
+  },
+  "/apache-nifi": {
+    "children": [
+      "1-fundamentos nifi"
+    ],
+    "dashedName": "apache-nifi",
+    "hasChildren": true,
+    "isStubbed": false,
+    "path": "/apache-nifi",
+    "parent": "pages",
+    "parentPath": "",
+    "title": "Apache Nifi"
+  },
+  "/Kafka/1-Fundamentos-Kafka": {
+    "children": [],
+    "dashedName": "1-fundamentos-kafka",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Kafka/1-Fundamentos-Kafka",
+    "parent": "Kafka",
+    "parentPath": "/Kafka",
+    "title": "1-Fundamentos de Kafka"
+  },
+  "/apache-nifi/1-Fundamentos NiFi": {
+    "children": [],
+    "dashedName": "1-fundamentos nifi",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/apache-nifi/1-Fundamentos NiFi",
+    "parent": "apache-nifi",
+    "parentPath": "/apache-nifi",
+    "title": "1-Fundamentos de NiFi"
+  },
   "/arquitectura-sistemas-operativos-linux": {
     "children": [
       "1-funciones-basicas-vim",
@@ -37,6 +97,16 @@
     "parent": "pages",
     "parentPath": "",
     "title": "Arquitectura de sistemas operativos Linux"
+  },
+  "/Kafka/2-Instalacion-standalone": {
+    "children": [],
+    "dashedName": "2-instalacion-standalone",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Kafka/2-Instalacion-standalone",
+    "parent": "Kafka",
+    "parentPath": "/Kafka",
+    "title": "2- Instalación de Kafka standalone"
   },
   "/arquitectura-sistemas-operativos-linux/1-funciones-basicas-vim": {
     "children": [],
@@ -78,6 +148,16 @@
     "parent": "pages",
     "parentPath": "",
     "title": "Git"
+  },
+  "/Kafka/3-Instalacion-cluster": {
+    "children": [],
+    "dashedName": "3-instalacion-cluster",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Kafka/3-Instalacion-cluster",
+    "parent": "Kafka",
+    "parentPath": "/Kafka",
+    "title": "3- Instalación en cluster"
   },
   "/arquitectura-sistemas-operativos-linux/10-optimizacion-de-particiones-ext4": {
     "children": [],
@@ -129,6 +209,16 @@
     "parent": "pages",
     "parentPath": "",
     "title": "Linux"
+  },
+  "/Kafka/4-Creacion-de-topicos": {
+    "children": [],
+    "dashedName": "4-creacion-de-topicos",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Kafka/4-Creacion-de-topicos",
+    "parent": "Kafka",
+    "parentPath": "/Kafka",
+    "title": "4- Creación de tópicos"
   },
   "/arquitectura-sistemas-operativos-linux/11-uso-de-sudo": {
     "children": [],
@@ -195,6 +285,16 @@
     "parentPath": "",
     "title": "Machine Learning"
   },
+  "/Kafka/5-Kafka-streams": {
+    "children": [],
+    "dashedName": "5-kafka-streams",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Kafka/5-Kafka-streams",
+    "parent": "Kafka",
+    "parentPath": "/Kafka",
+    "title": "5- Kafka Streams"
+  },
   "/arquitectura-sistemas-operativos-linux/12-gestion-de-usuario": {
     "children": [],
     "dashedName": "12-gestion-de-usuario",
@@ -247,6 +347,16 @@
     "parentPath": "",
     "title": "Terminal/Command Prompt"
   },
+  "/Kafka/6-Troubleshooting": {
+    "children": [],
+    "dashedName": "6-troubleshooting",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Kafka/6-Troubleshooting",
+    "parent": "Kafka",
+    "parentPath": "/Kafka",
+    "title": "6- Troubleshooting"
+  },
   "/arquitectura-sistemas-operativos-linux/13-gestion-de-procesos-y-trabajos": {
     "children": [],
     "dashedName": "13-gestion-de-procesos-y-trabajos",
@@ -255,7 +365,7 @@
     "path": "/arquitectura-sistemas-operativos-linux/13-gestion-de-procesos-y-trabajos",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "Funciones Básicas Vi/Vim"
+    "title": "13- Gestión de procesos y trabajos"
   },
   "/git/git-bisect": {
     "children": [],
@@ -393,7 +503,7 @@
     "path": "/arquitectura-sistemas-operativos-linux/15-listas-de-control-de-acceso",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "Funciones Básicas Vi/Vim"
+    "title": "15- Listas de control de acceso"
   },
   "/git/git-checkout": {
     "children": [],
@@ -587,7 +697,7 @@
     "path": "/arquitectura-sistemas-operativos-linux/17-uso-de-atd-crond",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "Funciones Básicas Vi/Vim"
+    "title": "17- Uso de atd y cron"
   },
   "/git/git-commit": {
     "children": [],
@@ -927,7 +1037,7 @@
     "path": "/arquitectura-sistemas-operativos-linux/21-protocolo-dns",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "Funciones Básicas Vi/Vim"
+    "title": "21- Protocolo DNS"
   },
   "/git/git-push": {
     "children": [],
@@ -1047,7 +1157,7 @@
     "path": "/arquitectura-sistemas-operativos-linux/23-configuracion-ntp",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "Funciones Básicas Vi/Vim"
+    "title": "23-Configuración NTP"
   },
   "/git/git-remote": {
     "children": [],
@@ -1147,7 +1257,7 @@
     "path": "/arquitectura-sistemas-operativos-linux/25-configuracion-samba",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "Funciones Básicas Vi/Vim"
+    "title": "25- Configuración de Samba"
   },
   "/git/git-stash": {
     "children": [],
@@ -1249,7 +1359,7 @@
     "path": "/arquitectura-sistemas-operativos-linux/27-configuracion-rsyslog",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "Funciones Básicas Vi/Vim"
+    "title": "27- Configuración de Rsyslog"
   },
   "/git/gitignore": {
     "children": [],
