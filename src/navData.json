@@ -29,7 +29,10 @@
   },
   "/apache-nifi": {
     "children": [
-      "1-fundamentos nifi"
+      "1-fundamentos nifi",
+      "2-instalación apache nifi",
+      "3-primeros pasos nifi",
+      "4-creando tu propiedo procesador"
     ],
     "dashedName": "apache-nifi",
     "hasChildren": true,
@@ -108,6 +111,16 @@
     "parentPath": "/Kafka",
     "title": "2- Instalación de Kafka standalone"
   },
+  "/apache-nifi/2-Instalación Apache NiFi": {
+    "children": [],
+    "dashedName": "2-instalación apache nifi",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/apache-nifi/2-Instalación Apache NiFi",
+    "parent": "apache-nifi",
+    "parentPath": "/apache-nifi",
+    "title": "2- Instalación Apache NiFi (Docker)"
+  },
   "/arquitectura-sistemas-operativos-linux/1-funciones-basicas-vim": {
     "children": [],
     "dashedName": "1-funciones-basicas-vim",
@@ -158,6 +171,16 @@
     "parent": "Kafka",
     "parentPath": "/Kafka",
     "title": "3- Instalación en cluster"
+  },
+  "/apache-nifi/3-Primeros pasos NiFi": {
+    "children": [],
+    "dashedName": "3-primeros pasos nifi",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/apache-nifi/3-Primeros pasos NiFi",
+    "parent": "apache-nifi",
+    "parentPath": "/apache-nifi",
+    "title": "3- Primeros Pasos NiFi"
   },
   "/arquitectura-sistemas-operativos-linux/10-optimizacion-de-particiones-ext4": {
     "children": [],
@@ -219,6 +242,16 @@
     "parent": "Kafka",
     "parentPath": "/Kafka",
     "title": "4- Creación de tópicos"
+  },
+  "/apache-nifi/4-Creando tu propiedo procesador": {
+    "children": [],
+    "dashedName": "4-creando tu propiedo procesador",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/apache-nifi/4-Creando tu propiedo procesador",
+    "parent": "apache-nifi",
+    "parentPath": "/apache-nifi",
+    "title": "4- Creando tu propio procesador"
   },
   "/arquitectura-sistemas-operativos-linux/11-uso-de-sudo": {
     "children": [],

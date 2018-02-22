@@ -44,3 +44,6 @@ El *Content Repository* es donde se resguardan los bytes del archivo de flujo (F
 - **Provenance Repository**
 
 El *Provenance Repository* es donde se almacenan todos los datos de eventos de procedencia. Dentro de cada ubicación, los datos de los eventos se indexan y se pueden buscar.
+
+
+Para mayor información sobre Apache NiFi [Apache Nifi - Docs](https://nifi.apache.org/docs.html)
