@@ -1,5 +1,5 @@
 ---
-title: 1-Instalación
+title: elasticsearch
 ---
 ## ¿Que es elasticsearch?
 
