@@ -1,4 +1,33 @@
 {
+  "/Docker": {
+    "children": [
+      "1-instalacion-de-docker",
+      "2-conceptos-sobre-docker",
+      "3-repositorios-oficiales",
+      "4-comandos-para-manipular-docker",
+      "5-dockerfile",
+      "6-manejo-de-imagenes",
+      "7-manejo-de-contenedores",
+      "8-publicar-imagen"
+    ],
+    "dashedName": "docker",
+    "hasChildren": true,
+    "isStubbed": false,
+    "path": "/Docker",
+    "parent": "pages",
+    "parentPath": "",
+    "title": "Docker"
+  },
+  "/Docker/1-instalacion-de-docker": {
+    "children": [],
+    "dashedName": "1-instalacion-de-docker",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Docker/1-instalacion-de-docker",
+    "parent": "Docker",
+    "parentPath": "/Docker",
+    "title": "1. Instalación :"
+  },
   "/Kafka": {
     "children": [
       "1-fundamentos kafka",
@@ -17,6 +46,16 @@
     "parentPath": "",
     "title": "Kafka"
   },
+  "/Docker/2-conceptos-sobre-docker": {
+    "children": [],
+    "dashedName": "2-conceptos-sobre-docker",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Docker/2-conceptos-sobre-docker",
+    "parent": "Docker",
+    "parentPath": "/Docker",
+    "title": "2. Conceptos Sobre Docker :"
+  },
   "/Kafka/1-Fundamentos Kafka": {
     "children": [],
     "dashedName": "1-fundamentos kafka",
@@ -30,9 +69,9 @@
   "/apache-nifi": {
     "children": [
       "1-fundamentos nifi",
-      "2-instalación apache nifi",
-      "3-primeros pasos nifi",
-      "4-creando tu propiedo procesador"
+      "2-instalación-apache-nifi",
+      "3-primeros-pasos-nifi",
+      "4-creando-tu-propiedo-procesador"
     ],
     "dashedName": "apache-nifi",
     "hasChildren": true,
@@ -41,6 +80,16 @@
     "parent": "pages",
     "parentPath": "",
     "title": "Apache Nifi"
+  },
+  "/Docker/3-repositorios-oficiales": {
+    "children": [],
+    "dashedName": "3-repositorios-oficiales",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Docker/3-repositorios-oficiales",
+    "parent": "Docker",
+    "parentPath": "/Docker",
+    "title": "3. Repositorios Oficiales de Imágenes"
   },
   "/Kafka/1-Fundamentos-Kafka": {
     "children": [],
@@ -101,6 +150,16 @@
     "parentPath": "",
     "title": "Arquitectura de sistemas operativos Linux"
   },
+  "/Docker/4-comandos-para-manipular-docker": {
+    "children": [],
+    "dashedName": "4-comandos-para-manipular-docker",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Docker/4-comandos-para-manipular-docker",
+    "parent": "Docker",
+    "parentPath": "/Docker",
+    "title": "4. Comandos Básicos para manipular Docker"
+  },
   "/Kafka/2-Instalacion-standalone": {
     "children": [],
     "dashedName": "2-instalacion-standalone",
@@ -111,12 +170,12 @@
     "parentPath": "/Kafka",
     "title": "2- Instalación de Kafka standalone"
   },
-  "/apache-nifi/2-Instalación Apache NiFi": {
+  "/apache-nifi/2-Instalación-Apache-NiFi": {
     "children": [],
-    "dashedName": "2-instalación apache nifi",
+    "dashedName": "2-instalación-apache-nifi",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/apache-nifi/2-Instalación Apache NiFi",
+    "path": "/apache-nifi/2-Instalación-Apache-NiFi",
     "parent": "apache-nifi",
     "parentPath": "/apache-nifi",
     "title": "2- Instalación Apache NiFi (Docker)"
@@ -130,6 +189,68 @@
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
     "title": "1-Funciones Básicas Vi/Vim"
+  },
+  "/elasticsearch": {
+    "children": [
+      "1-primer"
+    ],
+    "dashedName": "elasticsearch",
+    "hasChildren": true,
+    "isStubbed": false,
+    "path": "/elasticsearch",
+    "parent": "pages",
+    "parentPath": "",
+    "title": "elasticsearch"
+  },
+  "/Docker/5-dockerfile": {
+    "children": [],
+    "dashedName": "5-dockerfile",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Docker/5-dockerfile",
+    "parent": "Docker",
+    "parentPath": "/Docker",
+    "title": "5. Dockerfile"
+  },
+  "/Kafka/3-Instalacion-cluster": {
+    "children": [],
+    "dashedName": "3-instalacion-cluster",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Kafka/3-Instalacion-cluster",
+    "parent": "Kafka",
+    "parentPath": "/Kafka",
+    "title": "3- Instalación en cluster"
+  },
+  "/apache-nifi/3-Primeros-pasos-NiFi": {
+    "children": [],
+    "dashedName": "3-primeros-pasos-nifi",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/apache-nifi/3-Primeros-pasos-NiFi",
+    "parent": "apache-nifi",
+    "parentPath": "/apache-nifi",
+    "title": "3- Primeros Pasos NiFi"
+  },
+  "/arquitectura-sistemas-operativos-linux/10-optimizacion-de-particiones-ext4": {
+    "children": [],
+    "dashedName": "10-optimizacion-de-particiones-ext4",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/arquitectura-sistemas-operativos-linux/10-optimizacion-de-particiones-ext4",
+    "parent": "arquitectura-sistemas-operativos-linux",
+    "parentPath": "/arquitectura-sistemas-operativos-linux",
+    "title": "10. Optimización de Particiones ext4"
+  },
+  "/elasticsearch/1-Primer": {
+    "children": [],
+    "dashedName": "1-primer",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/elasticsearch/1-Primer",
+    "parent": "elasticsearch",
+    "parentPath": "/elasticsearch",
+    "title": "1-Instalación"
   },
   "/git": {
     "children": [
@@ -162,35 +283,45 @@
     "parentPath": "",
     "title": "Git"
   },
-  "/Kafka/3-Instalacion-cluster": {
+  "/Docker/6-manejo-de-imagenes": {
     "children": [],
-    "dashedName": "3-instalacion-cluster",
+    "dashedName": "6-manejo-de-imagenes",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/Kafka/3-Instalacion-cluster",
+    "path": "/Docker/6-manejo-de-imagenes",
+    "parent": "Docker",
+    "parentPath": "/Docker",
+    "title": "6. Manejo de imagenes"
+  },
+  "/Kafka/4-Creacion-de-topicos": {
+    "children": [],
+    "dashedName": "4-creacion-de-topicos",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Kafka/4-Creacion-de-topicos",
     "parent": "Kafka",
     "parentPath": "/Kafka",
-    "title": "3- Instalación en cluster"
+    "title": "4- Creación de tópicos"
   },
-  "/apache-nifi/3-Primeros pasos NiFi": {
+  "/apache-nifi/4-Creando-tu-propiedo-procesador": {
     "children": [],
-    "dashedName": "3-primeros pasos nifi",
+    "dashedName": "4-creando-tu-propiedo-procesador",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/apache-nifi/3-Primeros pasos NiFi",
+    "path": "/apache-nifi/4-Creando-tu-propiedo-procesador",
     "parent": "apache-nifi",
     "parentPath": "/apache-nifi",
-    "title": "3- Primeros Pasos NiFi"
+    "title": "4- Creando tu propio procesador"
   },
-  "/arquitectura-sistemas-operativos-linux/10-optimizacion-de-particiones-ext4": {
+  "/arquitectura-sistemas-operativos-linux/11-uso-de-sudo": {
     "children": [],
-    "dashedName": "10-optimizacion-de-particiones-ext4",
+    "dashedName": "11-uso-de-sudo",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/10-optimizacion-de-particiones-ext4",
+    "path": "/arquitectura-sistemas-operativos-linux/11-uso-de-sudo",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "10. Optimización de Particiones ext4"
+    "title": "11-Uso de sudo"
   },
   "/git/GUI-options": {
     "children": [],
@@ -233,35 +364,35 @@
     "parentPath": "",
     "title": "Linux"
   },
-  "/Kafka/4-Creacion-de-topicos": {
+  "/Docker/7-manejo-de-contenedores": {
     "children": [],
-    "dashedName": "4-creacion-de-topicos",
+    "dashedName": "7-manejo-de-contenedores",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/Kafka/4-Creacion-de-topicos",
+    "path": "/Docker/7-manejo-de-contenedores",
+    "parent": "Docker",
+    "parentPath": "/Docker",
+    "title": "7. Manejo de Contenedores"
+  },
+  "/Kafka/5-Kafka-streams": {
+    "children": [],
+    "dashedName": "5-kafka-streams",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Kafka/5-Kafka-streams",
     "parent": "Kafka",
     "parentPath": "/Kafka",
-    "title": "4- Creación de tópicos"
+    "title": "5- Kafka Streams"
   },
-  "/apache-nifi/4-Creando tu propiedo procesador": {
+  "/arquitectura-sistemas-operativos-linux/12-gestion-de-usuario": {
     "children": [],
-    "dashedName": "4-creando tu propiedo procesador",
+    "dashedName": "12-gestion-de-usuario",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/apache-nifi/4-Creando tu propiedo procesador",
-    "parent": "apache-nifi",
-    "parentPath": "/apache-nifi",
-    "title": "4- Creando tu propio procesador"
-  },
-  "/arquitectura-sistemas-operativos-linux/11-uso-de-sudo": {
-    "children": [],
-    "dashedName": "11-uso-de-sudo",
-    "hasChildren": false,
-    "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/11-uso-de-sudo",
+    "path": "/arquitectura-sistemas-operativos-linux/12-gestion-de-usuario",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "11-Uso de sudo"
+    "title": "12. Gestión de Usuarios"
   },
   "/git/authenticate-with-github-using-ssh": {
     "children": [],
@@ -318,25 +449,35 @@
     "parentPath": "",
     "title": "Machine Learning"
   },
-  "/Kafka/5-Kafka-streams": {
+  "/Docker/8-publicar-imagen": {
     "children": [],
-    "dashedName": "5-kafka-streams",
+    "dashedName": "8-publicar-imagen",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/Kafka/5-Kafka-streams",
+    "path": "/Docker/8-publicar-imagen",
+    "parent": "Docker",
+    "parentPath": "/Docker",
+    "title": "8. Publicar Imágen"
+  },
+  "/Kafka/6-Troubleshooting": {
+    "children": [],
+    "dashedName": "6-troubleshooting",
+    "hasChildren": false,
+    "isStubbed": false,
+    "path": "/Kafka/6-Troubleshooting",
     "parent": "Kafka",
     "parentPath": "/Kafka",
-    "title": "5- Kafka Streams"
+    "title": "6- Troubleshooting"
   },
-  "/arquitectura-sistemas-operativos-linux/12-gestion-de-usuario": {
+  "/arquitectura-sistemas-operativos-linux/13-gestion-de-procesos-y-trabajos": {
     "children": [],
-    "dashedName": "12-gestion-de-usuario",
+    "dashedName": "13-gestion-de-procesos-y-trabajos",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/12-gestion-de-usuario",
+    "path": "/arquitectura-sistemas-operativos-linux/13-gestion-de-procesos-y-trabajos",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "12. Gestión de Usuarios"
+    "title": "13- Gestión de procesos y trabajos"
   },
   "/git/difference-git-github": {
     "children": [],
@@ -380,25 +521,15 @@
     "parentPath": "",
     "title": "Terminal/Command Prompt"
   },
-  "/Kafka/6-Troubleshooting": {
+  "/arquitectura-sistemas-operativos-linux/14-permisos-de-sistemas-de-archivos": {
     "children": [],
-    "dashedName": "6-troubleshooting",
+    "dashedName": "14-permisos-de-sistemas-de-archivos",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/Kafka/6-Troubleshooting",
-    "parent": "Kafka",
-    "parentPath": "/Kafka",
-    "title": "6- Troubleshooting"
-  },
-  "/arquitectura-sistemas-operativos-linux/13-gestion-de-procesos-y-trabajos": {
-    "children": [],
-    "dashedName": "13-gestion-de-procesos-y-trabajos",
-    "hasChildren": false,
-    "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/13-gestion-de-procesos-y-trabajos",
+    "path": "/arquitectura-sistemas-operativos-linux/14-permisos-de-sistemas-de-archivos",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "13- Gestión de procesos y trabajos"
+    "title": "14. Permisos de Sistemas de archivo"
   },
   "/git/git-bisect": {
     "children": [],
@@ -458,15 +589,15 @@
     "parentPath": "",
     "title": "Tools"
   },
-  "/arquitectura-sistemas-operativos-linux/14-permisos-de-sistemas-de-archivos": {
+  "/arquitectura-sistemas-operativos-linux/15-listas-de-control-de-acceso": {
     "children": [],
-    "dashedName": "14-permisos-de-sistemas-de-archivos",
+    "dashedName": "15-listas-de-control-de-acceso",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/14-permisos-de-sistemas-de-archivos",
+    "path": "/arquitectura-sistemas-operativos-linux/15-listas-de-control-de-acceso",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "14. Permisos de Sistemas de archivo"
+    "title": "15- Listas de control de acceso"
   },
   "/git/git-branch": {
     "children": [],
@@ -528,15 +659,15 @@
     "parentPath": "",
     "title": "Vim"
   },
-  "/arquitectura-sistemas-operativos-linux/15-listas-de-control-de-acceso": {
+  "/arquitectura-sistemas-operativos-linux/16-uso-de-yum": {
     "children": [],
-    "dashedName": "15-listas-de-control-de-acceso",
+    "dashedName": "16-uso-de-yum",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/15-listas-de-control-de-acceso",
+    "path": "/arquitectura-sistemas-operativos-linux/16-uso-de-yum",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "15- Listas de control de acceso"
+    "title": "16. Uso de Yum"
   },
   "/git/git-checkout": {
     "children": [],
@@ -652,15 +783,15 @@
     "parentPath": "/vim",
     "title": "Copy and Paste"
   },
-  "/arquitectura-sistemas-operativos-linux/16-uso-de-yum": {
+  "/arquitectura-sistemas-operativos-linux/17-uso-de-atd-crond": {
     "children": [],
-    "dashedName": "16-uso-de-yum",
+    "dashedName": "17-uso-de-atd-crond",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/16-uso-de-yum",
+    "path": "/arquitectura-sistemas-operativos-linux/17-uso-de-atd-crond",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "16. Uso de Yum"
+    "title": "17- Uso de atd y cron"
   },
   "/git/git-clone": {
     "children": [],
@@ -722,15 +853,15 @@
     "parentPath": "/vim",
     "title": "Macros"
   },
-  "/arquitectura-sistemas-operativos-linux/17-uso-de-atd-crond": {
+  "/arquitectura-sistemas-operativos-linux/18-uso-de-tcp-ip-y-configuraciones-de-red": {
     "children": [],
-    "dashedName": "17-uso-de-atd-crond",
+    "dashedName": "18-uso-de-tcp-ip-y-configuraciones-de-red",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/17-uso-de-atd-crond",
+    "path": "/arquitectura-sistemas-operativos-linux/18-uso-de-tcp-ip-y-configuraciones-de-red",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "17- Uso de atd y cron"
+    "title": "18. Uso De Tcp Ip Y Configuraciones De Red"
   },
   "/git/git-commit": {
     "children": [],
@@ -792,15 +923,15 @@
     "parentPath": "/vim",
     "title": "Modes in Vim"
   },
-  "/arquitectura-sistemas-operativos-linux/18-uso-de-tcp-ip-y-configuraciones-de-red": {
+  "/arquitectura-sistemas-operativos-linux/19-configuracion-vlans": {
     "children": [],
-    "dashedName": "18-uso-de-tcp-ip-y-configuraciones-de-red",
+    "dashedName": "19-configuracion-vlans",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/18-uso-de-tcp-ip-y-configuraciones-de-red",
+    "path": "/arquitectura-sistemas-operativos-linux/19-configuracion-vlans",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "18. Uso De Tcp Ip Y Configuraciones De Red"
+    "title": "19. Configuración VLans"
   },
   "/git/git-hosting": {
     "children": [],
@@ -862,15 +993,15 @@
     "parentPath": "/vim",
     "title": "Motions"
   },
-  "/arquitectura-sistemas-operativos-linux/19-configuracion-vlans": {
+  "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores": {
     "children": [],
-    "dashedName": "19-configuracion-vlans",
+    "dashedName": "2-comandos-necesarios-para-administracion-de-servidores",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/19-configuracion-vlans",
+    "path": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "19. Configuración VLans"
+    "title": "2. Comandos Necesarios para la administración de Servidores"
   },
   "/git/git-log": {
     "children": [],
@@ -932,15 +1063,15 @@
     "parentPath": "/vim",
     "title": "Navigation"
   },
-  "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores": {
+  "/arquitectura-sistemas-operativos-linux/20-iptables": {
     "children": [],
-    "dashedName": "2-comandos-necesarios-para-administracion-de-servidores",
+    "dashedName": "20-iptables",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/2-comandos-necesarios-para-administracion-de-servidores",
+    "path": "/arquitectura-sistemas-operativos-linux/20-iptables",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "2. Comandos Necesarios para la administración de Servidores"
+    "title": "20. Iptables"
   },
   "/git/git-merge": {
     "children": [],
@@ -1002,15 +1133,15 @@
     "parentPath": "/vim",
     "title": "Search and Replace"
   },
-  "/arquitectura-sistemas-operativos-linux/20-iptables": {
+  "/arquitectura-sistemas-operativos-linux/21-protocolo-dns": {
     "children": [],
-    "dashedName": "20-iptables",
+    "dashedName": "21-protocolo-dns",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/20-iptables",
+    "path": "/arquitectura-sistemas-operativos-linux/21-protocolo-dns",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "20. Iptables"
+    "title": "21- Protocolo DNS"
   },
   "/git/git-pull": {
     "children": [],
@@ -1062,15 +1193,15 @@
     "parentPath": "/vim",
     "title": "Split"
   },
-  "/arquitectura-sistemas-operativos-linux/21-protocolo-dns": {
+  "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh": {
     "children": [],
-    "dashedName": "21-protocolo-dns",
+    "dashedName": "22-configuracion-openssh",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/21-protocolo-dns",
+    "path": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "21- Protocolo DNS"
+    "title": "22. Configuración Openssh"
   },
   "/git/git-push": {
     "children": [],
@@ -1122,15 +1253,15 @@
     "parentPath": "/vim",
     "title": "Useful Commands"
   },
-  "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh": {
+  "/arquitectura-sistemas-operativos-linux/23-configuracion-ntp": {
     "children": [],
-    "dashedName": "22-configuracion-openssh",
+    "dashedName": "23-configuracion-ntp",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/22-configuracion-openssh",
+    "path": "/arquitectura-sistemas-operativos-linux/23-configuracion-ntp",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "22. Configuración Openssh"
+    "title": "23-Configuración NTP"
   },
   "/git/git-rebase": {
     "children": [],
@@ -1182,15 +1313,15 @@
     "parentPath": "/vim",
     "title": "Vundle"
   },
-  "/arquitectura-sistemas-operativos-linux/23-configuracion-ntp": {
+  "/arquitectura-sistemas-operativos-linux/24-configuracion-nfs": {
     "children": [],
-    "dashedName": "23-configuracion-ntp",
+    "dashedName": "24-configuracion-nfs",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/23-configuracion-ntp",
+    "path": "/arquitectura-sistemas-operativos-linux/24-configuracion-nfs",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "23-Configuración NTP"
+    "title": "24. Configuración NFS"
   },
   "/git/git-remote": {
     "children": [],
@@ -1232,15 +1363,15 @@
     "parentPath": "/tools/calculators",
     "title": "Circle Calculator"
   },
-  "/arquitectura-sistemas-operativos-linux/24-configuracion-nfs": {
+  "/arquitectura-sistemas-operativos-linux/25-configuracion-samba": {
     "children": [],
-    "dashedName": "24-configuracion-nfs",
+    "dashedName": "25-configuracion-samba",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/24-configuracion-nfs",
+    "path": "/arquitectura-sistemas-operativos-linux/25-configuracion-samba",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "24. Configuración NFS"
+    "title": "25- Configuración de Samba"
   },
   "/git/git-reset": {
     "children": [],
@@ -1282,15 +1413,15 @@
     "parentPath": "/tools/calculators",
     "title": "Coding Bootcamp Cost Calculator"
   },
-  "/arquitectura-sistemas-operativos-linux/25-configuracion-samba": {
+  "/arquitectura-sistemas-operativos-linux/26-configuracion-ldap": {
     "children": [],
-    "dashedName": "25-configuracion-samba",
+    "dashedName": "26-configuracion-ldap",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/25-configuracion-samba",
+    "path": "/arquitectura-sistemas-operativos-linux/26-configuracion-ldap",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "25- Configuración de Samba"
+    "title": "26. Configuración Ldap :"
   },
   "/git/git-stash": {
     "children": [],
@@ -1332,15 +1463,15 @@
     "parentPath": "/tools/calculators",
     "title": "Combinations and Permutations Calculator"
   },
-  "/arquitectura-sistemas-operativos-linux/26-configuracion-ldap": {
+  "/arquitectura-sistemas-operativos-linux/27-configuracion-rsyslog": {
     "children": [],
-    "dashedName": "26-configuracion-ldap",
+    "dashedName": "27-configuracion-rsyslog",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/26-configuracion-ldap",
+    "path": "/arquitectura-sistemas-operativos-linux/27-configuracion-rsyslog",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "26. Configuración Ldap :"
+    "title": "27- Configuración de Rsyslog"
   },
   "/git/git-status": {
     "children": [],
@@ -1384,15 +1515,15 @@
     "parentPath": "/tools/calculators",
     "title": "Complex Number Calculator"
   },
-  "/arquitectura-sistemas-operativos-linux/27-configuracion-rsyslog": {
+  "/arquitectura-sistemas-operativos-linux/28-programacion-bash": {
     "children": [],
-    "dashedName": "27-configuracion-rsyslog",
+    "dashedName": "28-programacion-bash",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/27-configuracion-rsyslog",
+    "path": "/arquitectura-sistemas-operativos-linux/28-programacion-bash",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "27- Configuración de Rsyslog"
+    "title": "28. Programación Bash"
   },
   "/git/gitignore": {
     "children": [],
@@ -1444,15 +1575,15 @@
     "parentPath": "/tools/calculators",
     "title": "Conception Calculator"
   },
-  "/arquitectura-sistemas-operativos-linux/28-programacion-bash": {
+  "/arquitectura-sistemas-operativos-linux/3-ajustes-de-horario": {
     "children": [],
-    "dashedName": "28-programacion-bash",
+    "dashedName": "3-ajustes-de-horario",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/28-programacion-bash",
+    "path": "/arquitectura-sistemas-operativos-linux/3-ajustes-de-horario",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "28. Programación Bash"
+    "title": "3- Ajustes de horario"
   },
   "/git/tagging-in-git": {
     "children": [],
@@ -1507,15 +1638,15 @@
     "parentPath": "/tools/calculators",
     "title": "Confidence Interval Calculator"
   },
-  "/arquitectura-sistemas-operativos-linux/3-ajustes-de-horario": {
+  "/arquitectura-sistemas-operativos-linux/4-planificadores-entrada-salida": {
     "children": [],
-    "dashedName": "3-ajustes-de-horario",
+    "dashedName": "4-planificadores-entrada-salida",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/3-ajustes-de-horario",
+    "path": "/arquitectura-sistemas-operativos-linux/4-planificadores-entrada-salida",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "3- Ajustes de horario"
+    "title": "4. Planificadores de Entrada y Salida"
   },
   "/linux/using-the-find-command": {
     "children": [],
@@ -1557,15 +1688,15 @@
     "parentPath": "/tools/calculators",
     "title": "Conversion Calculator"
   },
-  "/arquitectura-sistemas-operativos-linux/4-planificadores-entrada-salida": {
+  "/arquitectura-sistemas-operativos-linux/5-sistema-de-nivel-de-ejecucion": {
     "children": [],
-    "dashedName": "4-planificadores-entrada-salida",
+    "dashedName": "5-sistema-de-nivel-de-ejecucion",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/4-planificadores-entrada-salida",
+    "path": "/arquitectura-sistemas-operativos-linux/5-sistema-de-nivel-de-ejecucion",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "4. Planificadores de Entrada y Salida"
+    "title": "5-Sistema de nivel de ejecución"
   },
   "/machine-learning/principles/data-alone-is-not-enough": {
     "children": [],
@@ -1597,15 +1728,15 @@
     "parentPath": "/tools/calculators",
     "title": "Date Calculator"
   },
-  "/arquitectura-sistemas-operativos-linux/5-sistema-de-nivel-de-ejecucion": {
+  "/arquitectura-sistemas-operativos-linux/6-gestion-de-servicios": {
     "children": [],
-    "dashedName": "5-sistema-de-nivel-de-ejecucion",
+    "dashedName": "6-gestion-de-servicios",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/5-sistema-de-nivel-de-ejecucion",
+    "path": "/arquitectura-sistemas-operativos-linux/6-gestion-de-servicios",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "5-Sistema de nivel de ejecución"
+    "title": "6. Gestión de Servicios"
   },
   "/machine-learning/principles/feature-engineering-is-the-key": {
     "children": [],
@@ -1637,15 +1768,15 @@
     "parentPath": "/tools/calculators",
     "title": "Density Calculator"
   },
-  "/arquitectura-sistemas-operativos-linux/6-gestion-de-servicios": {
+  "/arquitectura-sistemas-operativos-linux/7-systemD": {
     "children": [],
-    "dashedName": "6-gestion-de-servicios",
+    "dashedName": "7-systemd",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/6-gestion-de-servicios",
+    "path": "/arquitectura-sistemas-operativos-linux/7-systemD",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "6. Gestión de Servicios"
+    "title": "7- SystemD"
   },
   "/machine-learning/principles/intuition-fails-in-high-dimensions": {
     "children": [],
@@ -1677,15 +1808,15 @@
     "parentPath": "/tools/calculators",
     "title": "Exponent Calculator"
   },
-  "/arquitectura-sistemas-operativos-linux/7-systemD": {
+  "/arquitectura-sistemas-operativos-linux/8-gestion-de-memoria-de-intercambio": {
     "children": [],
-    "dashedName": "7-systemd",
+    "dashedName": "8-gestion-de-memoria-de-intercambio",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/7-systemD",
+    "path": "/arquitectura-sistemas-operativos-linux/8-gestion-de-memoria-de-intercambio",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "7- SystemD"
+    "title": "8. Gestión de Memoria de Intercambio"
   },
   "/machine-learning/principles/its-generalization-that-counts": {
     "children": [],
@@ -1717,15 +1848,15 @@
     "parentPath": "/tools/calculators",
     "title": "Finance Calculator"
   },
-  "/arquitectura-sistemas-operativos-linux/8-gestion-de-memoria-de-intercambio": {
+  "/arquitectura-sistemas-operativos-linux/9-gestion-de-volumenes-logicos": {
     "children": [],
-    "dashedName": "8-gestion-de-memoria-de-intercambio",
+    "dashedName": "9-gestion-de-volumenes-logicos",
     "hasChildren": false,
     "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/8-gestion-de-memoria-de-intercambio",
+    "path": "/arquitectura-sistemas-operativos-linux/9-gestion-de-volumenes-logicos",
     "parent": "arquitectura-sistemas-operativos-linux",
     "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "8. Gestión de Memoria de Intercambio"
+    "title": "9-Gestión de volúmenes lógicos"
   },
   "/machine-learning/principles/learn-many-models-not-just-one": {
     "children": [],
@@ -1756,16 +1887,6 @@
     "parent": "calculators",
     "parentPath": "/tools/calculators",
     "title": "Financial Calculator"
-  },
-  "/arquitectura-sistemas-operativos-linux/9-gestion-de-volumenes-logicos": {
-    "children": [],
-    "dashedName": "9-gestion-de-volumenes-logicos",
-    "hasChildren": false,
-    "isStubbed": false,
-    "path": "/arquitectura-sistemas-operativos-linux/9-gestion-de-volumenes-logicos",
-    "parent": "arquitectura-sistemas-operativos-linux",
-    "parentPath": "/arquitectura-sistemas-operativos-linux",
-    "title": "9-Gestión de volúmenes lógicos"
   },
   "/machine-learning/principles/learning-equals-representation-evaluation-optimization": {
     "children": [],

@@ -1,6 +1,6 @@
 # Contributing
 
-With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come. 💛
+.With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come. 💛
 
 > The following Table of Contents was generated automatically using the [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc) extension in [VS Code](https://code.visualstudio.com/).
 
