@@ -104,4 +104,4 @@ Para saber más de Vim http://www.vim.org/6k/features.es.txt
 
 Para mayor información acerca de los comandos que se utilizan en Vim https://www.garron.me/es/articulos/guia-de-vi-vim.html
 	
-
+Ok
