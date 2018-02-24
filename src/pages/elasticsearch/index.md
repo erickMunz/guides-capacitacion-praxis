@@ -1,12 +1,12 @@
 ---
 title: elasticsearch
 ---
-## ¿Qué es elasticsearch?
+# ¿Qué es elasticsearch?
 
-Como lo dice su nombre es un gestor de **búsqueda** que también permite la **analitica**.
+Como lo dice su nombre es un motor de **búsqueda** RESTful que también permite la **analitica**.
 
 ElasticSearch es usado para hacer búsquedas de texto, estructuradas y analíticos, todo en una solución
-
+--- 
 ## Características:
 
 - Usado por **Wikipedia** con búsquedas de texto.
@@ -16,20 +16,20 @@ ElasticSearch es usado para hacer búsquedas de texto, estructuradas y analític
 ## ¿Por que elasticsearch?
 Elasticsearch cuenta con herramientas como:
 
-## RESTful API
+###RESTful API
  - Estas API nos permiten tener acceso a los datos de elasticsearch por medio de metodos HTTP como lo son: POST, GET, DELETE. elasticsearch tiene esta API integrada.
 
-## Lucene
+### Lucene
 
- - elasticsearch esta basado en leucene2 como SOLR, o mas gestores de búsquedas de texto, lo que nos dara una mayor velocidad en la búsqueda de texto.
+ - elasticsearch esta basado en **leucene2** como **SOLR**, o mas gestores de búsquedas de texto, lo que nos dara una mayor velocidad en la búsqueda de texto.
 
  
-## Kibana
+### Kibana
  - Al tener muchos datos dentro de elasticsearch tal vez nos gustaría tener una grafica con ellos, pues Kibana lo permite.
 
-## Logstash
+### Logstash
 
  - Sirve como sistema que se encargue de subir información de logs dentro del servidor a elasticsearch, logstash es una herramienta para hacer esto.
 
-## Beats
-Adicionalmente elasticsearch cuenta con Beats, que son agentes  para subir información especifica a elasticsearch, tales como archivos, tramas. etc. para mas información consultar [Beats](https://www.elastic.co/downloads/elasticsearch)
+### Beats
+- Adicionalmente elasticsearch cuenta con Beats, que son agentes  para subir información especifica a elasticsearch, tales como archivos, tramas. etc. para mas información consultar [Beats](https://www.elastic.co/downloads/elasticsearch)
