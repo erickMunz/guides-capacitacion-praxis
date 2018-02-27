@@ -1,9 +1,15 @@
 ---
 title: elasticsearch
 ---
+
+![Logo elastic](https://www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo%20%282%29.svg)
 # ¿Qué es elasticsearch?
 
-Como lo dice su nombre es un motor de **búsqueda** RESTful que también permite la **analitica**.
+Es un motor de **búsqueda** RESTful que también permite la **analitica**, creado a partir de la libreria  **lucene** una de las mas avanzadas en cuanto a búsqueda de texto. 
+elacticsearch permite:
+- Un almacen distribuidp para documentos en donde cada palabra es guardada y puede ser **búscada**
+- Un motor de busqueda distribuido con analitica en **tiempo real**
+- Escalable con cientos de servidores y petabytes de datos estructurados y desestructurados.
 
 ElasticSearch es usado para hacer búsquedas de texto, estructuradas y analíticos, todo en una solución
 --- 
