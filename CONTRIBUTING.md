@@ -1,64 +1,64 @@
-# Contributing
+# Contribución
 
-.With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come. 💛
+Con su ayuda, podemos crear una herramienta de referencia de facil entendimiento que ayude a miles de personas que deseen aprender código en las siguientes años.  💛
 
-> The following Table of Contents was generated automatically using the [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc) extension in [VS Code](https://code.visualstudio.com/).
+> La siguiente tabla de contenido fue generada automaticamente usando [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc) extensión en [VS Code](https://code.visualstudio.com/).
 
 <!-- TOC -->
 
-- [Contributing](#contributing)
-  - [Steps](#steps)
-  - [Creating a PR](#creating-a-pr)
-    - [Using GitHub.com](#using-githubcom)
-    - [Cloning Locally](#cloning-locally)
-    - [Running Locally](#running-locally)
-  - [Getting PR Accepted](#getting-pr-accepted)
-    - [Labels](#labels)
-    - [Conflicting/Duplicate Content](#conflictingduplicate-content)
-    - [Requesting Changes](#requesting-changes)
-    - [Travis CI Build](#travis-ci-build)
-    - [Closing](#closing)
-    - [Getting Help](#getting-help)
-  - [Article Style Guide](#article-style-guide)
-    - [Title](#title)
-    - [Modularity](#modularity)
-    - [Code Blocks](#code-blocks)
-    - [Links](#links)
-    - [Images](#images)
-    - [Attributions](#attributions)
-    - [Resources](#resources)
-    - [Formatting](#formatting)
-  - [Technical Writing](#technical-writing)
-    - [Outline](#outline)
-    - [Intro](#intro)
-    - [Content](#content)
-    - [Clarity](#clarity)
-    - [Voice](#voice)
-      - [Passive](#passive)
-      - [Active](#active)
-    - [Point of View](#point-of-view)
-    - [Abbreviations](#abbreviations)
-    - [Proper nouns](#proper-nouns)
-    - [Third-Party Tools](#third-party-tools)
-- [Reviewing PRs](#reviewing-prs)
-  - [Squash and Merge](#squash-and-merge)
-  - [Filtering PRs](#filtering-prs)
-  - [Templates](#templates)
-    - [Build Error](#build-error)
-    - [Syncing Fork](#syncing-fork)
-    - [Merge Conflicts](#merge-conflicts)
-    - [Duplicate](#duplicate)
-    - [Closing](#closing-1)
+- [Contribución](#contributing)
+  - [Pasos](#Pasos)
+  - [Creando un PR](#creating-a-pr)
+    - [Usando GitHub.com](#using-githubcom)
+    - [Clonación local](#cloning-locally)
+    - [Ejecutando localmente](#running-locally)
+  - [Obtener PR Accepted](#getting-pr-accepted)
+    - [Etiquetas](#labels)
+    - [Confligtos/Contenido Duplicado](#conflictingduplicate-content)
+    - [Solicitud de cambios](#requesting-changes)
+    - [Compilación Travis CI](#travis-ci-build)
+    - [Cierre](#closing)
+    - [Ayuda](#getting-help)
+  - [Articulo guias de estilo](#article-style-guide)
+    - [Titulo](#title)
+    - [Modularidad](#modularity)
+    - [Bloques de Código](#code-blocks)
+    - [Enlaces](#links)
+    - [Imagenes](#images)
+    - [Atribuciones](#attributions)
+    - [Recursos](#resources)
+    - [Formatos](#formatting)
+  - [Tecnicas de escritura](#technical-writing)
+    - [Resumen](#outline)
+    - [Introducción](#intro)
+    - [Contenido](#content)
+    - [Claridad](#clarity)
+    - [Voz](#voice)
+      - [Pasivo](#passive)
+      - [Activo](#active)
+    - [Puntos de Vista](#point-of-view)
+    - [Abreviaciones](#abbreviations)
+    - [Nombres propios](#proper-nouns)
+    - [Herramientas de terceros](#third-party-tools)
+- [Revisando PRs](#reviewing-prs)
+  - [Funcionar y mezclar](#squash-and-merge)
+  - [Filtado de PRs](#filtering-prs)
+  - [Plantillas](#templates)
+    - [Error de compilación](#build-error)
+    - [Sincronización de bifurcaciones](#syncing-fork)
+    - [Mezclando conflictos](#merge-conflicts)
+    - [Duplicidad](#duplicate)
+    - [Cierre](#closing-1)
 
 <!-- /TOC -->
 
-## Steps
+## Pasos
 
-1. 🍴 [Fork this repo](https://github.com/freeCodeCamp/guides#fork-destination-box)
-2. 👀️ Follow the contributing guidelines outlined below.
-3. 🔧 Make some awesome changes!
-4. 👉 [Make a pull request](https://github.com/freeCodeCamp/guides/compare)
-5. 🎉 Get your pull request approved - success!
+1. 🍴 [Bifurcar este repositorio](https://github.com/freeCodeCamp/guides#fork-destination-box)
+2. 👀️ Siga las guias de contribución resumidas a continuación.
+3. 🔧 ¡Has cambios increibles!
+4. 👉 [Crea una petición "pull"](https://github.com/freeCodeCamp/guides/compare)
+5. 🎉 ¡Consigue tu peición aprovada de pulll - exitosa!
 
 Or just [create an issue](https://github.com/freeCodeCamp/guides/issues) - any little bit of help counts! 😊
 
