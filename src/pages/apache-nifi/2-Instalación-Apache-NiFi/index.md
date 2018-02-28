@@ -32,6 +32,24 @@ docker run --name nifi \
   apache/nifi:latest
 
 ```
-Donde -e: es la propiedad indica el valor que se le asignara 
+Donde -e: indica el valor que se le asignara a las propiedades mencionada.
+NIFI_WEB _HTTP _HOST se debe colocar el valor de la ip asignada por la network de Docker. Para saber que que ip se encuentra asignada al docker del NiFi ejecutar el siguiente comando
 
-4. 
+```
+ docker network inspect bridge
+
+```
+4. Ejecutaremos el siguiente comando para validar que se agrego el nuevo contenedor de Nifi.
+
+```
+docker images
+
+docker ps
+
+```
+Donde *docker images* muestra todas la imagenes existentes en Docker, y *docker ps* los contenemdores que se encuentran activos en ese momento.
+
+5. Una vez arriba el docker de NiFi se puede consumir el servicio dronte de un explorador:
+
+[http://ip:9090/nifi/]()
+
