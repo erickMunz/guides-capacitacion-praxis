@@ -49,7 +49,9 @@ docker ps
 ```
 Donde *docker images* muestra todas la imagenes existentes en Docker, y *docker ps* los contenemdores que se encuentran activos en ese momento.
 
-5. Una vez arriba el docker de NiFi se puede consumir el servicio dronte de un explorador:
+5. Una vez arriba el docker de NiFi se puede consumir el servicio dentro de un explorador:
 
 [http://ip:9090/nifi/]()
 
+
+Para consultar mas información: [NiFi Docker image](https://hub.docker.com/r/apache/nifi/)
