@@ -1,11 +1,11 @@
 ---
 title: 1-Fundamentos de NiFi
 ---
-## Fundamentos de NiFi
+# Fundamentos de NiFi
 
 NiFi es un software desarrollado por Apache Software Foundation, es una herramienta para la automatización de flujo de datos, permitiendo a los usuarios enviar, recibir, manipular, transformar y ordenar información.
 
-Características 
+**Características**
 
 1. Compatibilidad con diferentes herramientas para la distribución de datos.
 2. Facil de usar, debido a su interfaz grafica de solo arrestrar y colocar.
@@ -46,4 +46,42 @@ El *Content Repository* es donde se resguardan los bytes del archivo de flujo (F
 El *Provenance Repository* es donde se almacenan todos los datos de eventos de procedencia. Dentro de cada ubicación, los datos de los eventos se indexan y se pueden buscar.
 
 
+---
+Autentificación de usuarios
+---
+
+Apache Nifi permite la autentificación vía 3 opciones:
+
+* username/password.
+* Apache Knox.
+* OpenId Connect.
+
+Para realizar la autentificación NiFi utiliza un 'Login Identity Provider', este se debe configurar en el archivo *nifi.properties*. Actualmente, NiFi ofrece un nombre de usuario / contraseña con las opciones de Identity Providers de inicio de sesión para LDAP y Kerberos.
+
+---
+Clustering 
+---
+
+NiFi implementa un nuevo paradigma para realizar clustering llamado "Zero Master Clustering", el cual india que no existira un nodo Maestro. Cada nodo ejecutara las mismas tareas en los datos, pero operaran en conjuntos diferentes de datos. Se elige de forma automática un nodo como "Cluster Coordinator" (vía Apache Zookeerper).
+
+![Clustering](https://nifi.apache.org/docs/nifi-docs/html/images/zero-master-cluster-http-access.png)
+
+---
+Multi-tenancy
+---
+
+Apache NiFi permite manejar, controlar y observar el estado de diferentes partes del flujo de datos, por grupos de entidades (sistemas o personas) con diferentes niveles de autorización.
+
+Actualmente el modelo de autorización de NiFi en un flujo de datos dado se aplica a todo el flujo de datos gráfico, lo cual no permite respaldar las necesidades de múltiples usuarios que están presentes cuando varias organizaciones aprovechan los mismos recursos para administrar los flujos de datos.
+
+---
+
 Para mayor información sobre Apache NiFi [Apache Nifi - Docs](https://nifi.apache.org/docs.html)
+
+Para mas información sobre Clustering [Clustering Configuration](https://nifi.apache.org/docs/nifi-docs/html/administration-guide.html#clustering)
+
+Para mas información sobre User Authentication [Authentication](https://nifi.apache.org/docs/nifi-docs/html/administration-guide.html#user_authentication)
+
+Para mas información sobre multi-tenancy [Multi-tentant](https://cwiki.apache.org/confluence/display/NIFI/Multi-Tentant+Dataflow) y [Multi-tenancy](https://bryanbende.com/development/2016/08/17/apache-nifi-1-0-0-authorization-and-multi-tenancy)
+
+---
