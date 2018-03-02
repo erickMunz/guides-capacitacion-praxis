@@ -7,7 +7,7 @@ title: 3-Documento
  - ¿Por que las operaciónes CRUD (create-read-update-delete) son en tiempo-real?
  - ¿Como Elasticsearch garantiza que si existe un problema de energia los cambios hechos sean durables?
 
-###Busqueda de texto
+###Búsqueda de texto
 El primer reto es hacer busquedas de texto, anteriormente en las bases de datos almacenan un valor por campo, pero para la búsqueda de texto esto no es suficiente, dado que cada palabra de un texto debe de poder buscarse, y dentro de una base deberia de indexar cada palabra con un valor. 
 
 La estructura que mas se adecua para la busqueda de texto es el **indice invertido**.
@@ -94,11 +94,57 @@ Despues de ejecutar la confirmación, se deberá de limpiar el búfer de memoria
 ![Bufer lucene](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1103.png)
 Cuando se emite una consulta, todos los segmentos conocidos son consultados sucesivamente. Las estadísticas de términos se agregan en todos los segmentos para garantizar que la relevancia de cada término y cada documento se calcule con precisión. De esta forma, se pueden agregar nuevos documentos al índice de forma relativamente económica.
 
-##Elimina y Actualiza editar
-Los segmentos son inmutables, por lo que los documentos no pueden eliminarse de los segmentos más antiguos, ni los segmentos más antiguos pueden actualizarse para reflejar una versión más reciente de un documento. En cambio, cada punto de confirmación incluye un .fromfile que enumera los documentos en los que se han eliminado los segmentos.
+##Eliminar y Actualizar
+Los segmentos son inmutables, por lo que los documentos no pueden eliminarse de los segmentos más antiguos, ni los segmentos más antiguos pueden actualizarse para reflejar una versión más reciente de un documento. En cambio, cada punto de confirmación incluye una notación **.fromfile** que enumera los documentos en los que se han eliminado los segmentos.
 
-Cuando se "borra" un documento, en realidad solo se marca como eliminado en el .fromdile. Un documento que se ha marcado como eliminado aún puede coincidir con una consulta, pero se elimina de la lista de resultados antes de que se devuelvan los resultados finales de la consulta.
+Cuando se "borra" un documento, en realidad solo se marca como eliminado en el **.fromdile.** Un documento que se ha marcado como eliminado aún puede coincidir con una consulta, pero se elimina de la lista de resultados antes de que se devuelvan los resultados finales de la consulta.
 
 Las actualizaciones de documentos funcionan de manera similar: cuando se actualiza un documento, la versión anterior del documento se marca como eliminada y la nueva versión del documento se indexa en un nuevo segmento. Quizás ambas versiones del documento coincidan con una consulta, pero la versión eliminada anterior se elimina antes de que se devuelvan los resultados de la consulta.
 
-https://www.elastic.co/guide/en/elasticsearch/guide/current/dynamic-indices.html#img-post-commit
+##Combinación de segmentos:
+Con el proceso de actualización automático creando un nuevo segmento cada segundo, no demora en explotar la cantidad de segmentos. Tener demasiados segmentos es un problema. Cada segmento consume controladores de archivos, memoria y ciclos de CPU. Más importante aún, cada solicitud de búsqueda debe verificar cada segmento por turno; cuantos más segmentos haya, más lenta será la búsqueda.
+
+Elasticsearch resuelve este problema fusionando segmentos en segundo plano. Los segmentos pequeños se fusionan en segmentos más grandes, que a su vez se fusionan en segmentos aún más grandes.
+
+Este es el momento en que esos viejos documentos borrados se eliminan del sistema de archivos. Los documentos eliminados (o versiones antiguas de documentos actualizados) no se copian en el nuevo segmento más grande.
+1. Durante la indexación, el proceso de actualización crea nuevos segmentos y los abre para la búsqueda.
+2. El proceso de fusión selecciona unos pocos segmentos de tamaño similar y los combina en un nuevo segmento más grande en el fondo. Esto no interrumpe la indexación y la búsqueda.
+Como se muestra en la siguiente imagen
+![combinacionsegmento](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1110.png)
+
+* El nuevo segmento se vacía en el disco.
+* Se escribe un nuevo punto de compromiso que incluye el nuevo segmento y excluye los segmentos viejos y más pequeños.
+* El nuevo segmento está abierto para la búsqueda.
+* Los viejos segmentos son eliminados.
+
+De forma que lo segmentos quedan como la siguiente imagen:
+
+![Segmento final](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1111.png)
+
+##Búsqueda casi *tiempo real*
+
+Con el desarrollo de búsqueda por segmento, el la demora entre indexar un documento y hacerlo visible para la búsqueda se redujo drásticamente. Los documentos nuevos se pueden hacer búsquedas en minutos, pero aún así no es lo suficientemente rápido.
+
+##Optimize API
+La optimizeAPI es la mejor descrito como la API de fusión forzada . Obliga a un fragmento a fusionarse a la cantidad de segmentos especificados en el max_num_segmentsparámetro. La intención es reducir la cantidad de segmentos (generalmente a uno) para acelerar el rendimiento de la búsqueda.
+> no se recomienda el uso del optimize API para un indice dinamico ya que cuenta con el proceso de fusión de fondo y hacer el uso del API obstaculizará el proceso.
+
+ El caso de uso típico para el optimize API es para el registro, donde los registros se almacenan en un índice por día, semana o mes. Los índices más antiguos son esencialmente de solo lectura; es poco probable que cambien.
+ En este caso, puede ser útil para optimizar los fragmentos de un índice anterior a un solo segmento cada uno; utilizará menos recursos y las búsquedas serán más rápidas:
+ ```json
+ POST / logstash - 2014 - 10 / _optimizar ? max_num_segments = 1
+ ```
+ ## Búsqueda de *tiempo real*
+
+ Con el desarrollo de búsqueda por segmento, el la demora entre indexar un documento y hacerlo visible para la búsqueda se redujo drásticamente. Los documentos nuevos se pueden hacer búsquedas en minutos, pero aún así no es lo suficientemente rápido.
+
+ Para asignar un nuevo segmento al disco, es necesario **fsync** asegurarse de que el segmento se haya escrito físicamente en el disco y de que no se perderán datos si se produce un corte de energía. Pero un **fsync** es costoso; no se puede realizar cada vez que se indexa un documento sin un gran golpe de rendimiento, de forma que **fsync** no es una opcion. 
+ Entre Elasticsearch y el disco está el caché del sistema de archivos.
+ los documentos se escriben en un nuevo segmento en el búfer de indexación en memoria
+ Pero el nuevo segmento se escribe primero en el caché del sistema de archivos, lo cual es barato, y solo más tarde se vacía al disco, lo cual es costoso. Pero una vez que un archivo está en la memoria caché, se puede abrir y leer, al igual que cualquier otro archivo.
+ Como se muestra en el ejemplo:
+ ![nuevos documentos en el búfer en memoria](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1104.png)
+
+ Lucene permite escribir y abrir segmentos nuevos, haciendo que los documentos que contienen sean visibles para la búsqueda, sin realizar una confirmación completa. Este es un proceso mucho más ligero que un compromiso, y se puede hacer con frecuencia sin arruinar el rendimiento.
+
+ ![segmento vacio](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1105.png)
