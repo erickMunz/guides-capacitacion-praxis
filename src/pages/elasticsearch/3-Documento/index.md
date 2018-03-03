@@ -123,19 +123,6 @@ De forma que lo segmentos quedan como la siguiente imagen:
 
 ##Búsqueda casi *tiempo real*
 
-Con el desarrollo de búsqueda por segmento, el la demora entre indexar un documento y hacerlo visible para la búsqueda se redujo drásticamente. Los documentos nuevos se pueden hacer búsquedas en minutos, pero aún así no es lo suficientemente rápido.
-
-##Optimize API
-La optimizeAPI es la mejor descrito como la API de fusión forzada . Obliga a un fragmento a fusionarse a la cantidad de segmentos especificados en el max_num_segmentsparámetro. La intención es reducir la cantidad de segmentos (generalmente a uno) para acelerar el rendimiento de la búsqueda.
-> no se recomienda el uso del optimize API para un indice dinamico ya que cuenta con el proceso de fusión de fondo y hacer el uso del API obstaculizará el proceso.
-
- El caso de uso típico para el optimize API es para el registro, donde los registros se almacenan en un índice por día, semana o mes. Los índices más antiguos son esencialmente de solo lectura; es poco probable que cambien.
- En este caso, puede ser útil para optimizar los fragmentos de un índice anterior a un solo segmento cada uno; utilizará menos recursos y las búsquedas serán más rápidas:
- ```json
- POST / logstash - 2014 - 10 / _optimizar ? max_num_segments = 1
- ```
- ## Búsqueda de *tiempo real*
-
  Con el desarrollo de búsqueda por segmento, el la demora entre indexar un documento y hacerlo visible para la búsqueda se redujo drásticamente. Los documentos nuevos se pueden hacer búsquedas en minutos, pero aún así no es lo suficientemente rápido.
 
  Para asignar un nuevo segmento al disco, es necesario **fsync** asegurarse de que el segmento se haya escrito físicamente en el disco y de que no se perderán datos si se produce un corte de energía. Pero un **fsync** es costoso; no se puede realizar cada vez que se indexa un documento sin un gran golpe de rendimiento, de forma que **fsync** no es una opcion. 
@@ -148,3 +135,13 @@ La optimizeAPI es la mejor descrito como la API de fusión forzada . Obliga a un
  Lucene permite escribir y abrir segmentos nuevos, haciendo que los documentos que contienen sean visibles para la búsqueda, sin realizar una confirmación completa. Este es un proceso mucho más ligero que un compromiso, y se puede hacer con frecuencia sin arruinar el rendimiento.
 
  ![segmento vacio](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1105.png)
+
+##Optimize API
+La optimizeAPI es la mejor descrito como la API de fusión forzada . Obliga a un fragmento a fusionarse a la cantidad de segmentos especificados en el max_num_segmentsparámetro. La intención es reducir la cantidad de segmentos (generalmente a uno) para acelerar el rendimiento de la búsqueda.
+> no se recomienda el uso del optimize API para un indice dinamico ya que cuenta con el proceso de fusión de fondo y hacer el uso del API obstaculizará el proceso.
+
+ El caso de uso típico para el optimize API es para el registro, donde los registros se almacenan en un índice por día, semana o mes. Los índices más antiguos son esencialmente de solo lectura; es poco probable que cambien.
+ En este caso, puede ser útil para optimizar los fragmentos de un índice anterior a un solo segmento cada uno; utilizará menos recursos y las búsquedas serán más rápidas:
+ ```json
+ POST / logstash - 2014 - 10 / _optimizar ? max_num_segments = 1
+ ```
