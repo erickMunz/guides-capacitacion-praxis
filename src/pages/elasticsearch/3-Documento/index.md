@@ -137,11 +137,11 @@ De forma que lo segmentos quedan como la siguiente imagen:
  ![segmento vacio](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1105.png)
 
 ##Optimize API
-La optimizeAPI es la mejor descrito como la API de fusión forzada . Obliga a un fragmento a fusionarse a la cantidad de segmentos especificados en el max_num_segmentsparámetro. La intención es reducir la cantidad de segmentos (generalmente a uno) para acelerar el rendimiento de la búsqueda.
+La optimize API es la mejor descrito como la API de fusión forzada . Obliga a un fragmento a fusionarse a la cantidad de segmentos especificados en el max_num_segmentsparámetro. La intención es reducir la cantidad de segmentos (generalmente a uno) para acelerar el rendimiento de la búsqueda.
 > no se recomienda el uso del optimize API para un indice dinamico ya que cuenta con el proceso de fusión de fondo y hacer el uso del API obstaculizará el proceso.
 
  El caso de uso típico para el optimize API es para el registro, donde los registros se almacenan en un índice por día, semana o mes. Los índices más antiguos son esencialmente de solo lectura; es poco probable que cambien.
  En este caso, puede ser útil para optimizar los fragmentos de un índice anterior a un solo segmento cada uno; utilizará menos recursos y las búsquedas serán más rápidas:
  ```json
- POST / logstash - 2014 - 10 / _optimizar ? max_num_segments = 1
+ POST / logstash - 2014 - 10 / _optimize ? max_num_segments = 1
  ```
