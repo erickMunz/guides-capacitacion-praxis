@@ -14,7 +14,7 @@ Vim es un editor de texto, el cual permite que el usuario, se olvide de utilizar
 En algunos de los sistemas operativos, Vim ya viene instalado, pero para tener la certeza utilizamos el siguiente comando en una terminal: 
 
 ```
-$ sudo apt-get install Vim
+$ sudo apt-get install vim
 ```
 Editamos el archivo de configuración de Vim:
 ```
