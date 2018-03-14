@@ -75,6 +75,23 @@ Apache NiFi permite manejar, controlar y observar el estado de diferentes partes
 Actualmente el modelo de autorización de NiFi en un flujo de datos dado se aplica a todo el flujo de datos gráfico, lo cual no permite respaldar las necesidades de múltiples usuarios que están presentes cuando varias organizaciones aprovechan los mismos recursos para administrar los flujos de datos.
 
 ---
+Repository
+---
+
+Apache NiFi cuenta con diferentes repositorios en este apartado se explica acerca de los 3 en particular:
+
+* Content repository.
+* Flowfile repository.
+* Rovenance repository.
+
+**Content repository** es el repostorio encargado de mantener el contenido de todos los FlowFiles en el sistema. Este puede estar ubicado en una ruta por default como los otros repositorios, se recomienda que se encuentre en una ruta diferente al repositorio de flowFile.
+
+**Flowfile repository** se encarga de dar seguimiento del estado actual de los FlowFile, se recomienda ser instalado en un disco diferente.
+
+
+**Rovenance repository** contiene la información relacionada con la procedencia de los datos.	
+
+---
 
 Para mayor información sobre Apache NiFi [Apache Nifi - Docs](https://nifi.apache.org/docs.html)
 
@@ -83,5 +100,7 @@ Para mas información sobre Clustering [Clustering Configuration](https://nifi.a
 Para mas información sobre User Authentication [Authentication](https://nifi.apache.org/docs/nifi-docs/html/administration-guide.html#user_authentication)
 
 Para mas información sobre multi-tenancy [Multi-tentant](https://cwiki.apache.org/confluence/display/NIFI/Multi-Tentant+Dataflow) y [Multi-tenancy](https://bryanbende.com/development/2016/08/17/apache-nifi-1-0-0-authorization-and-multi-tenancy)
+
+Para mas información sobre los repositorios de apache NiFi [Repository](https://nifi.apache.org/docs/nifi-docs/html/administration-guide.html#content-repository)
 
 ---
