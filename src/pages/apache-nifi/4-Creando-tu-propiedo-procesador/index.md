@@ -53,3 +53,23 @@ mvn archetype:generate
      ```    
 
      * Validar que se haya compilado de manera correcta al visualizar en pantalla la palabra *BUILD SUCCESS* y localizar dentro del directorio "*nombreProyecto-nar*" en la carpeta target el archivo "*nombrePryecto-1.0.nar*".
+
+9. Después de realizar y validar la compilación del proyect, este contiene las interfaces para generar el procesador (archivo.nar), se continuará en su implementación y configuración.
+
+10. A continuación adaptaremos el proyecto para lograr abrirlo con el IDE de eclipse, para lo anterior es necesario ejecutar el siguiente comando dentro de la carpeta raíz del mismo.
+
+```
+mvn eclipse:eclipse -DdownloadSources=true
+
+```
+
+11. Al terminar la descarga de los recursos estos crearan los componente .classpath y .project para poder importar a eclipse el proyecto.
+
+12. Importar el proyecto al IDE de eclipse para realizar la creación y configuración del nuevo procesador.
+
+13. Dentro del proyecto encontreremos diferentes paquetes:
+     * **src/test/java:** Se encuentran clases que implementan el TestRunner de NiFi para cada procesador se crea uno.
+     * **src/main/java:** Se encuentra el código que define el procesador que se esta creando.
+     * **src/main/resources:** Contiene el archivo *org.apache.nifi.processor.Processor*, el cual se encarga de habilitar y mostrar los procesadores creados en NiFi.
+
+14. 
