@@ -29,16 +29,16 @@ proceso.
 El comando ps admite algunos parámetros:
 Devuelve un listado de todos los procesos que se están ejecutando:
 ```
-ps -e
+$ ps -e
 ```
 Devuelve un listado extendido de todos los procesos que se están ejecutando:
 ```
-ps-f
+$ ps -f
 ```
 Devuelve  un  listado  extendido  de  todos  los  procesos  que  se  están  ejecutando  en  el 
 sistema.
 ```
-ps -ef
+$ ps -ef
 ```
 Informa  de  los  procesos  lanzado  por  un  determinado  usuario
 ```

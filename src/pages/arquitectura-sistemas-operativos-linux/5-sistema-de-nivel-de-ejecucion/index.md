@@ -54,10 +54,11 @@ El usuario administrador puede cambiar en cualquier momento de nivel utilizando 
 ```
 Nota: cambiar el número, según desee acceder al nivel. 
 
-Aparte de editar el archivo /etc/inittab, el administrador puede cambiar en cualquier momento el valor del nivel de ejecución con el comando init. Una instrucción como la siguiente:
+Aparte de editar el archivo /etc/inittab, el administrador puede cambiar en cualquier momento el valor del nivel de ejecución con el comando init.
 
-https://docs.oracle.com/cd/E24842_01/html/E23289/hbrunlevels-13026.html
+Para más información: <a href='https://docs.oracle.com/cd/E24842_01/html/E23289/hbrunlevels-13026.html' target='_blank' rel='nofollow'>https://docs.oracle.com/cd/E24842_01/html/E23289/hbrunlevels-13026.html</a>
 
-http://www.josoroma.com/run-levels-and-services
+Para más información: <a href='http://www.josoroma.com/run-levels-and-services' target='_blank' rel='nofollow'>http://www.josoroma.com/run-levels-and-services</a>
 
-http://aprendiendo-software.blogspot.mx/2012/01/runlevels-niveles-de-ejecucion.html
+Para más información: <a href='http://aprendiendo-software.blogspot.mx/2012/01/runlevels-niveles-de-ejecucion.html' target='_blank' rel='nofollow'>http://aprendiendo-software.blogspot.mx/2012/01/runlevels-niveles-de-ejecucion.html</a>
+

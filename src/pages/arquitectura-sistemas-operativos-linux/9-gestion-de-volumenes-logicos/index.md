@@ -9,7 +9,7 @@ Si se tiene un disco el cual ha sido particionado en 4, los cuales cada una de e
 
 Los volúmenes físicos que se manejan, también son combinados en grupos de volúmenes lógicos a exepción de la partición boot, ya que es el gestor de arranque principal. 
 
-![LVM](http://web.mit.edu/rhel-doc/3/rhel-sag-es-3/figs/lvmintro/lvg.png)
+![LVM](https://s3.amazonaws.com/bigdatamx/images-guides-vol_logico-01-particiones.png)
 
 
 ## Gestión de volúmenes con LVM en Ubuntu
@@ -30,9 +30,7 @@ Así como tambien es necesario notificar al FileSystem(es el encargado de admini
 $ sudo resize2fs /dev/VG/LV
 ```
 
-Para mayor información acerca de LVM: http://web.mit.edu/rhel-doc/3/rhel-sag-es-3/ch-lvm-intro.html
+Para mayor información acerca de LVM: <a href='http://web.mit.edu/rhel-doc/3/rhel-sag-es-3/ch-lvm-intro.html' target='_blank' rel='nofollow'>http://web.mit.edu/rhel-doc/3/rhel-sag-es-3/ch-lvm-intro.html</a>
 
-Para instalar LVM:  http://www.ubuntu-es.org/node/40557#.Wnt9xea71uQ
-
-
+Para instalar LVM: <a href='http://www.ubuntu-es.org/node/40557#.Wnt9xea71uQ' target='_blank' rel='nofollow'> http://www.ubuntu-es.org/node/40557#.Wnt9xea71uQ</a>
 

@@ -62,7 +62,7 @@ drwx------ 26 javier javier       4096 feb  8 11:04 .cache
 
 Los permisos se muestran como 10 caracteres:
 
-![Permisos ](https://thelinuxalchemist.files.wordpress.com/2017/04/reparto-permisos.png)
+![Permisos ](https://s3.amazonaws.com/bigdatamx/images-guides-permisos_sis-01-reparto_permisos.png)
 
 El primer caracter al extremo izquierdo, representa el tipo de archivo, los posibles valores para esta posición son los siguientes:
 
@@ -91,7 +91,7 @@ Los caracteres atribuidos a los permisos son:
 
 Para asignar permisos se utilizan 3 números octal (de 0 a 7) que se obtienen tranformando un número binario que varía en función de los permisos para el usuario, grupo y otros.
 
-![Notación Octal ](https://thelinuxalchemist.files.wordpress.com/2017/04/octal-e1491068711883.png)
+![Notación Octal ](https://s3.amazonaws.com/bigdatamx/images-guides-permisos_sis-02-octal.png)
 
 La combinación de bits encendidos o apagados en cada grupo da ocho posibles combinaciones de valores :
 
@@ -107,7 +107,7 @@ La combinación de bits encendidos o apagados en cada grupo da ocho posibles com
 
 Al unir los 3 permisos, los del usuario , grupo y otros :
 
-![Notación Octal ](https://image.ibb.co/dQHaMH/permisos.png)
+![Notación Octal ](https://s3.amazonaws.com/bigdatamx/images-guides-permisos_sis-03-permisos.png)
 
 ### Modificar Permisos :
 
@@ -118,7 +118,7 @@ Los permisos se modifican usando el comando chmod; y la sintaxis es :
 
 La estructura del comando es :
 
-![chmod ](https://thelinuxalchemist.files.wordpress.com/2017/04/sintaxis-chmod-e1491067934572.png)
+![chmod ](https://s3.amazonaws.com/bigdatamx/images-guides-permisos_sis-04-chmod-.png)
 
 
 Los modificadores son : 

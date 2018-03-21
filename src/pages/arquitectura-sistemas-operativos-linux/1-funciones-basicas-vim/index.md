@@ -100,8 +100,9 @@ U
 Para poder editar un texto, es necesario ingresar al modo de inserción, esto se realiza pulando la tecla <i>.
 
 
-Para saber más de Vim http://www.vim.org/6k/features.es.txt
+Para saber más de Vim: <a href='http://www.vim.org/6k/features.es.txt' target='_blank' rel='nofollow'>http://www.vim.org/6k/features.es.txt</a>
 
-Para mayor información acerca de los comandos que se utilizan en Vim https://www.garron.me/es/articulos/guia-de-vi-vim.html
+
+Para mayor información acerca de los comandos que se utilizan en Vim: <a href='https://www.garron.me/es/articulos/guia-de-vi-vim.html' target='_blank' rel='nofollow'>https://www.garron.me/es/articulos/guia-de-vi-vim.html</a>
+
 	
-Ok

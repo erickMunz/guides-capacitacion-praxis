@@ -15,7 +15,7 @@ En cambio los sistemas basado en ubuntu o debian utilizan una paquetería apt, p
 
 ### Comandos Principales de Yum :
 
-![Comandos ](https://image.ibb.co/kbCv5c/yum.png)
+![Comandos ](https://s3.amazonaws.com/bigdatamx/images-guides-yum-01-comandos.png)
 
 
 #### Para más información:

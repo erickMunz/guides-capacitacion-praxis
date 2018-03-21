@@ -4,7 +4,7 @@ title: 18. Uso De Tcp Ip Y Configuraciones De Red
 ## 18. Uso De Tcp Ip Y Configuraciones De Red
 
 ### TCP/IP :
-Se utiliza para conectar computadoras que utilizan diferentes sistemas operaytivos.
+Se utiliza para conectar computadoras que utilizan diferentes sistemas operativos.
 Fue desarrollado por el departamento de defensa de los E.U.A.
 TCP/IP son en realidad dos protocolos de comunicación entre ordenadores.
 
@@ -65,7 +65,9 @@ Ejemplo :
 
 #### Configuración estática por fichero :
 
-Se debe de editar el archivo  /etc/networks/interfaces :```# nano /etc/networks/interfaces```
+Se debe de editar el archivo  /etc/networks/interfaces :
+```# nano /etc/networks/interfaces
+```
 
 Y debe de tener los siguientes parámetros :
 
@@ -83,13 +85,19 @@ Y debe de tener los siguientes parámetros :
 #### Configuración dinámica  por dhclient :
 Cuando es por dhcp, no es necesario configurar nada, ya que el servidor automaticamente  nos proveera de una dirección IP.
 
-Para checar la ip, con el siguiente comando nos muestra la ip : ```ifconfig```
+Para checar la ip, con el siguiente comando nos muestra la ip : 
+```
+# ifconfig
+```
 
 #### Configuración dinámica por fichero :
 
 Para  esta configuración solo se debe de habilitar con una linea el parametro de dhcp, esta es una configuración manual del DHCP.
 
-Se edita el archivo  /etc/networks/interfaces :```# nano /etc/networks/interfaces```
+Se edita el archivo  /etc/networks/interfaces :
+```
+# nano /etc/networks/interfaces
+```
 
 Y se agrega la siguiente configuración :
 ```

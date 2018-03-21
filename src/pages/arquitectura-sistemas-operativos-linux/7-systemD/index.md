@@ -46,5 +46,7 @@ systemctl: Nos permite controlar el demonio systemd y con ello llevar a cabo una
 ![ComandosSystemD](https://nebul4ck.files.wordpress.com/2015/01/systemctl.png)
 
 
+Para mayor información acerca de system D: Para más información: <a href='https://www.solvetic.com/tutoriales/article/1773-%C2%BFqu%C3%A9-es-systemd/' target='_blank' rel='nofollow'>https://www.solvetic.com/tutoriales/article/1773-%C2%BFqu%C3%A9-es-systemd/</a>
 
-Para mayor información acerca de system D https://www.solvetic.com/tutoriales/article/1773-%C2%BFqu%C3%A9-es-systemd/
+
+
