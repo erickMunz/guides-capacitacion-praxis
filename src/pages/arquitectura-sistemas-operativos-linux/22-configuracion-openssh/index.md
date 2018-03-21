@@ -37,13 +37,13 @@ Comando :
 
 Si se utiliza otro puerto distinto al 22, solo se agregan unos parámetros en el comando :
 
-sftp -o Port=52341 juan@192.168.70.99
-# 
+# sftp -o Port=52341 juan@192.168.70.99
+ 
 ```
 
 En algunas distribuciones ubuntu que utilicen el Sistema de administración de Ficheros Nautilus, este puede acceder al servidor vía URL :
 
-![Nautilus ](http://www.alcancelibre.org/images/nautilus-sftp.png)
+![Nautilus ](https://s3.amazonaws.com/bigdatamx/images-guides-openssh-01-nautilus.png)
 
 
 ### SCP :

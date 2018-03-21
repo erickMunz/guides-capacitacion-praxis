@@ -4,7 +4,7 @@ title: 25- Configuración de Samba
 ## Configuración de Samba 
 
  
-Samba es un conjunto de aplciaciones que permite conectar carpetas compartidas entre PC con SO Windows con PC SO Linux, pueden cambiar información entre las mismas carpetas compartidas como si todas las PC tuvieran SO Windows.  Utilizan el protocolo SMB (Server Message Block, protocolo de red que permite compartir archivos, impresoras, etcétera, entre nodos de una red de computadoras que usan el sistema operativo Microsoft Windows).
+Samba es un conjunto de aplicaciones que permite conectar carpetas compartidas entre PC con SO Windows con PC SO Linux, pueden cambiar información entre las mismas carpetas compartidas como si todas las PC tuvieran SO Windows.  Utilizan el protocolo SMB (Server Message Block, protocolo de red que permite compartir archivos, impresoras, etcétera, entre nodos de una red de computadoras que usan el sistema operativo Microsoft Windows).
 Puede: 
 
 1.-Compartir uno o más sistemas de archivos.

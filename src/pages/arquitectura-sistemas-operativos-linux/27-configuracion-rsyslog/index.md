@@ -39,3 +39,7 @@ Rsyslog es un eficiente y rápido sistema de procesamiento de registros de siste
 
 Para mayor información: <a href='https://proyectosbeta.net/2012/07/configurar-rsyslog-en-debian-squeeze/' target='_blank' rel='nofollow'>https://proyectosbeta.net/2012/07/configurar-rsyslog-en-debian-squeeze/</a>
 
+
+Para mayor información: <a href='https://www.solvetic.com/tutoriales/article/4591-como-instalar-servidor-registro-rsyslog-linux/' target='_blank' rel='nofollow'>https://www.solvetic.com/tutoriales/article/4591-como-instalar-servidor-registro-rsyslog-linux/</a>
+
+
