@@ -4,11 +4,14 @@ title: 5. Dockerfile
 
 ## Dockerfile
 
-Un Dockerfile se compone de instrucciones, comentarios y líneas vacías y se utiliza para crear una imágen(docker image); como se muestra aquí:
+Un Dockerfile se compone de instrucciones comentarios y líneas vacías y se utiliza para crear una imágen(docker image); 
+El dockerfile es un archivo con varias lineas de instrucciones y configuraciones, para eso es PRIMORDIAL que se cree un archivo con el nombre de ```Dockerfile``` sin ninguna extensión, ejemplo:
 ```
-# Comment
-INSTRUCTION arguments
+javier$ touch Dockerfile
 ```
+, y con esos comandos creamos el archivo.
+
+
 
 La línea de instrucciones de Dockerfile se compone de dos componentes, donde la línea de instrucción comienza con la instrucción misma, que es seguida por los argumentos para la instrucción. La instrucción podría escribirse de cualquier manera, es insensible a mayúsculas / minúsculas Sin embargo, la práctica o convención estándar es usar mayúsculas  para diferenciarlo de los argumentos.
 
