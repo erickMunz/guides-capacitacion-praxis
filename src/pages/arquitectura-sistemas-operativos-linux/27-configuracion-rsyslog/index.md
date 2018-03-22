@@ -36,10 +36,16 @@ debug: mensaje de depuración.
 
 Rsyslog es un eficiente y rápido sistema de procesamiento de registros de sistema.
 
+## Configuración de Rsyslog
+
 
 Para mayor información: <a href='https://proyectosbeta.net/2012/07/configurar-rsyslog-en-debian-squeeze/' target='_blank' rel='nofollow'>https://proyectosbeta.net/2012/07/configurar-rsyslog-en-debian-squeeze/</a>
 
 
 Para mayor información: <a href='https://www.solvetic.com/tutoriales/article/4591-como-instalar-servidor-registro-rsyslog-linux/' target='_blank' rel='nofollow'>https://www.solvetic.com/tutoriales/article/4591-como-instalar-servidor-registro-rsyslog-linux/</a>
 
+Administrador de logs: <a href='https://lintut.com/install-and-use-log-file-navigator-lnav-in-ubuntu-and-centos-linux/' target='_blank' rel='nofollow'>https://lintut.com/install-and-use-log-file-navigator-lnav-in-ubuntu-and-centos-linux/</a>
 
+Infomacion de los logs en linux:  <a href='http://www.estrellateyarde.org/logs-en-linux' target='_blank' rel='nofollow'>http://www.estrellateyarde.org/logs-en-linux</a>
+
+Configuracion de rsyslog:  <a href='http://sysadmin.vazqueznanini.com.ar/rsyslog' target='_blank' rel='nofollow'>http://sysadmin.vazqueznanini.com.ar/rsyslog</a>

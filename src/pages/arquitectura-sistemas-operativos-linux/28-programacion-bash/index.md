@@ -9,7 +9,7 @@ Es la interfaz entre el usuario y el sistema operativo; permitiéndole interactu
 ### Bash :
 Bash (Bourne	Again	SHell); es un interprete	de	los	comandos	UNIX	del	
 usuario, escrito para el proyecto GNU.
-Es un bash en el cual el usuario tipea los comandos y el sistemas por medio de bash reconoce los comandos y los interpreta.
+Es un bash en el cual el usuario teclea los comandos y el sistemas por medio de bash reconoce los comandos y los interpreta.
 
 
 ### Características principales de BASH :
@@ -322,7 +322,7 @@ export PATH=$PATH:$NEO4J_HOME/bin
 Las variables especiales informan sobre el estado del proceso, son tratadas y modificadas
 directamente por el intérprete, por lo tanto, son de sólo lectura. La siguiente tabla muestra estas variables.
 
-![Variables especiales ](https://image.ibb.co/ea6FD7/variables.png)
+![Variables especiales ](https://s3.amazonaws.com/bigdatamx/images-guides-bash-01-variables.png)
 
 
 ### Condicionales (if) :

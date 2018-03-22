@@ -13,7 +13,7 @@ Puede:
 4.-Autentificar clientes logeándose contra un dominio Windows.
 5.-Proporcionar o asistir con un servidor de resolución de nombres WINS.
 
-![Samba](http://www.ite.educacion.es/formacion/materiales/85/cd/linux/m4/samba.png)
+![Samba](https://s3.amazonaws.com/bigdatamx/images-guides-samba-01-samba.png)
 
 
 ##Instalación de Samba
