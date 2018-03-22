@@ -25,12 +25,12 @@ Contenedores:
 
 
 
-![Docker vs VM](https://image.ibb.co/fF79Y7/docker2.png)
+![Docker vs VM](https://s3.amazonaws.com/bigdatamx/images-guides-docker-01-arquitectura.png)
 
 
 
 ## Carácteristicas de Docker :
-* Docker tiene la capacidad de reducir el tamaño del desarrollo mefiante la utilización
+* Docker tiene la capacidad de reducir el tamaño del desarrollo mediante la utilización
 de contenedores.
 * Con contenedores, se vuelve más fácil para los equipos de trabajo, realizar tareas como
 desarrollo, control de calidad y operaciones para trabajar sin problemas entre las aplicaciones.
@@ -84,7 +84,7 @@ gestionar múltiples contenedores e imágenes.
 Desde nuestra máquina la herramienta Docker Machine command, permite conectarnos a cualquier
 docker machine ya sea en cloud, local o virtual para administrarlos.
 
-![Docker](https://image.ibb.co/c2LP0n/docker1.png)
+![Docker](https://s3.amazonaws.com/bigdatamx/images-guides-docker-02-machines.png)
 
 
 ## Docker Layer
