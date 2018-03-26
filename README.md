@@ -4,51 +4,55 @@
 
 [![Build Status](https://img.shields.io/travis/freeCodeCamp/guides/master.svg?style=flat-square)](https://travis-ci.org/freeCodeCamp/guides) [![license](https://img.shields.io/badge/license-BSD--3--Clause-lightgrey.svg?style=flat-square)](https://opensource.org/licenses/BSD-3-Clause)  [![Gitter](https://img.shields.io/gitter/room/freeCodeCamp/Contributors.svg?style=flat-square)](https://gitter.im/freeCodeCamp/Contributors)
 
-[![GitHub Issues](https://img.shields.io/github/issues/freeCodeCamp/guides.svg?style=flat-square)](https://github.com/freeCodeCamp/guides/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/freeCodeCamp/guides.svg?style=flat-square)](https://github.com/freeCodeCamp/guides/pulls) [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](http://www.firsttimersonly.com/)
+[![Problemas de Github](https://img.shields.io/github/issues/freeCodeCamp/guides.svg?style=flat-square)](https://github.com/freeCodeCamp/guides/issues) [![Pull Requests de GitHub](https://img.shields.io/github/issues-pr/freeCodeCamp/guides.svg?style=flat-square)](https://github.com/freeCodeCamp/guides/pulls) [![Pull Requests](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Amigable para novatos](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](http://www.firsttimersonly.com/)
 
 [![Throughput Graph](https://graphs.waffle.io/freeCodeCamp/guides/throughput.svg)](https://waffle.io/freeCodeCamp/guides/metrics)
 
-The freeCodeCamp community is building a massive, searchable **"Guide"**.
+En BigdataMx queremos crear una  **guia** gigante y que se pueda buscar contenido en ella.
 
-This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science - all written to be easily understood by people new to coding.
+Esta herramienta con tu ayuda tendrá miles de articulos para cubrir temas de Big Data, como el desarrollo, 
+mapeo, integracion e implementacion de herramientas de Big Data, todo esto escrito de una manera amigable 
+para personas que quieran empezar con estos temas.
 
-This repo is where we plan and maintain these Guide articles, which we then host on our community's wiki-like Guide website at [`guide.freecodecamp.org`](https://guide.freecodecamp.org).
+Esta página funcionará como un repositorio para guardar la Guia de estos articulos, nosotros nos encargamos de el almacenamiento de esta información, para tener una **Guia** "*tipo-wiki*" en [`guias.bigdatamx.org`](https://guias.bigdatamx.org).
 
-## What are Guide articles?
 
-The Guide articles aim to be short articles to get you started and familiar with these concepts before going on to read more in-depth material.
+## ¿Que son estos articulos?
 
-Guide articles can be an explanation of a syntax, design pattern, what aria labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at [freecodecamp.org](https://freecodecamp.org).
+Estos articulos tienen como objetivo ser pequeños y que contengan lo necesario para iniciar y familiarizarte con los conteptos de alguna heramienta, para que despues puedas ver el material mas a fondo.
 
-You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
+Los articulos pueden ser una explicacion de sintaxis, patrones de diseño, para que son ciertas etiquetas, o bien que significa algo puntual en algún codigo mostrado. esto en [`guias.bigdatamx.org`](https://guias.bigdatamx.org).
 
-## What can I write an article about?
 
-We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire Guide is open source, so even if you make a mistake, another contributor will eventually correct it.
+[Aqui](./src/pages/html/elements/index.md) puedes encontrar exemplos de estos elementos HTLM
 
-To help, find a `stub article` on our [Guide website](https://guide.freecodecamp.org/), write the article, then open a pull request (PR) to replace the stub with your article.
+## ¿De que puedo escribir un articulo?
 
-If you can't find a stub about the topic you'd like to write about, you can open a PR that creates the stub and includes your draft article. 
+Te damos la bienvenida a escribir estos articulos, no tienes que ser un experto en algun topico para escribir en el - esta **Guia** es open source, asi que aunque te equivoques, otra persona puede corregirte despues.
 
-Feel free to ask us questions [in Gitter](https://gitter.im/freeCodeCamp/Contributors) if you're not sure where to put a new article in the directory structure.
+Para ayudarnos, encuentra articulo que requiera tu ayuda en [`guias.bigdatamx.org`](https://guias.bigdatamx.org), escribe el articulo, y despues pide un pull request para reemplazar el articulo con tu información.
 
-Before you begin writing, make sure to read the [article style guide](https://github.com/freeCodeCamp/guides/blob/master/CONTRIBUTING.md#article-style-guide) outlined in [CONTRIBUTING.md](CONTRIBUTING.md). 
+Si no encuentras un topico sobre el tema que quieres escribir, puedes pedir un Pull Request para crear el tema que incluya tu articulo. 
 
-## Contributing
+Si tienes alguna pregunta, te responeremos en [in Gitter](https://gitter.im/freeCodeCamp/Contributors), si no sabes en donde poner el nuevo articulo en la estructura del directorio. 
 
-1. 🍴 Fork this repo
-2. 👀️ Follow the contributing guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
-3. 🔧 Make some awesome changes!
-4. 👉 [Make a pull request](https://github.com/freeCodeCamp/guides/compare)
-5. 🎉 Get your pull request approved - success!
+Antes de escribir , por favor lee la [guia de estilo de articulo](https://github.com/freeCodeCamp/guides/blob/master/CONTRIBUTING.md#article-style-guide) mencionada en  [CONTRIBUTING.md](CONTRIBUTING.md). 
 
-Or just [create an issue](https://github.com/freeCodeCamp/guides/issues) - any little bit of help counts! 😊
 
-## License
+## Contribuir
 
-Copyright (c) 2017 freeCodeCamp.
+1. 🍴 Hazle fork a este repositorio
+2. 👀️ Sigue las instrucciones mencionadas en [CONTRIBUTING.md](CONTRIBUTING.md).
+3. 🔧 Hazle cambios increibles!!
+4. 👉 [Pide un pull request](https://github.com/freeCodeCamp/guides/compare)
+5. 🎉 Tu pull request aprovado - exito!
 
-The content of this repository is bound by the following licenses:
-- The computer software is licensed under the [BSD-3-Clause](./LICENSE.md).
-- The reference content in [`/src/pages`](/src/pages) and subdirectories is licensed under the [CC-BY-SA-4.0](./src/pages/LICENSE.md).
+O simplemente [reporta un problema ](https://github.com/freeCodeCamp/guides/issues) - toda la ayuda cuenta!
+
+## Licencia
+
+Copyright (c) 2017 BigdataMx
+El contenido de este repositorio cuenta con las siguientes licencias:
+- EL contenido computacional se encuentra bajo la [BSD-3-Clause](./LICENSE.md).
+- La referencia del contenido dentro de  [`/src/pages`](/src/pages) y los subdirectorios estan bajo la licencia[CC-BY-SA-4.0](./src/pages/LICENSE.md).
