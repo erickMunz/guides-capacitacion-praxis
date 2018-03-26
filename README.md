@@ -1,6 +1,6 @@
-![freeCodeCamp Guide](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
+![Guia BigdataMX](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
-# freeCodeCamp Guide
+# Guia BigdataMX
 
 [![Build Status](https://img.shields.io/travis/freeCodeCamp/guides/master.svg?style=flat-square)](https://travis-ci.org/freeCodeCamp/guides) [![license](https://img.shields.io/badge/license-BSD--3--Clause-lightgrey.svg?style=flat-square)](https://opensource.org/licenses/BSD-3-Clause)  [![Gitter](https://img.shields.io/gitter/room/freeCodeCamp/Contributors.svg?style=flat-square)](https://gitter.im/freeCodeCamp/Contributors)
 
