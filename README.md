@@ -9,7 +9,7 @@
 
 [![Throughput Graph](https://graphs.waffle.io/freeCodeCamp/guides/throughput.svg)](https://waffle.io/freeCodeCamp/guides/metrics)
 
-En BigdataMx queremos crear una  **guia** gigante y que se pueda buscar contenido en ella.
+En BigdataMx queremos crear una  **guia** extensa y que podamos realizar busquedas de contenido en ella.
 
 Esta herramienta con tu ayuda tendrá miles de articulos para cubrir temas de Big Data, como el desarrollo, 
 mapeo, integracion e implementacion de herramientas de Big Data, todo esto escrito de una manera amigable 
@@ -25,7 +25,7 @@ Estos articulos tienen como objetivo ser pequeños y que contengan lo necesario 
 Los articulos pueden ser una explicacion de sintaxis, patrones de diseño, para que son ciertas etiquetas, o bien que significa algo puntual en algún codigo mostrado. esto en [`guias.bigdatamx.org`](https://guias.bigdatamx.org).
 
 
-[Aqui](./src/pages/html/elements/index.md) puedes encontrar exemplos de estos elementos HTLM
+[Aqui](./src/pages/html/elements/index.md) puedes encontrar ejemplos de estos elementos HTLM
 
 ## ¿De que puedo escribir un articulo?
 
@@ -46,7 +46,7 @@ Antes de escribir , por favor lee la [guia de estilo de articulo](https://github
 2. 👀️ Sigue las instrucciones mencionadas en [CONTRIBUTING.md](CONTRIBUTING.md).
 3. 🔧 Hazle cambios increibles!!
 4. 👉 [Pide un pull request](https://github.com/freeCodeCamp/guides/compare)
-5. 🎉 Tu pull request aprovado - exito!
+5. 🎉 ¡Haz que tu petición sea aprovada - Exito!
 
 O simplemente [reporta un problema ](https://github.com/freeCodeCamp/guides/issues) - toda la ayuda cuenta!
 

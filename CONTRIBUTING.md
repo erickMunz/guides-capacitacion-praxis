@@ -1,8 +1,8 @@
 # Contribución
 
-Con su ayuda, podemos crear una herramienta de referencia de facil entendimiento que ayude a miles de personas que deseen aprender código en las siguientes años.  💛
+Con tu ayuda, podemos crear una herramienta de referencia de facil entendimiento que ayude a miles de personas que deseen aprender código en los siguientes años.  💛
 
-> La siguiente tabla de contenido fue generada automaticamente usando [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc) extensión en [VS Code](https://code.visualstudio.com/).
+> La siguiente tabla de contenido fue generada automaticamente usando [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc) con la extención en  [VS Code](https://code.visualstudio.com/).
 
 <!-- TOC -->
 
@@ -54,142 +54,142 @@ Con su ayuda, podemos crear una herramienta de referencia de facil entendimiento
 
 ## Pasos
 
-1. 🍴 [Bifurcar este repositorio](https://github.com/freeCodeCamp/guides#fork-destination-box)
+1. 🍴 [Darle Fork este repositorio](https://github.com/freeCodeCamp/guides#fork-destination-box)
 2. 👀️ Siga las guias de contribución resumidas a continuación.
 3. 🔧 ¡Has cambios increibles!
 4. 👉 [Crea una petición "pull"](https://github.com/freeCodeCamp/guides/compare)
-5. 🎉 ¡Consigue tu peición aprovada de pulll - exitosa!
+5. 🎉 ¡Haz que tu petición sea aprovada - Exito!
 
-Or just [create an issue](https://github.com/freeCodeCamp/guides/issues) - any little bit of help counts! 😊
+O simplemente [reporta un problema ](https://github.com/freeCodeCamp/guides/issues) - toda la ayuda cuenta!
 
-## Creating a PR
+## Creando un PR
 
-### Using GitHub.com
+### Usando GitHub.com
 
-Watch the video demonstration or follow the steps below it:
+Ve el video demostrativo o siguie los siguientes pasos:
 
-![GIF showing the GitHub interface steps](https://i.imgur.com/0cmxJwN.gif)
+![GIF mostrando los pasos de GitHub](https://i.imgur.com/0cmxJwN.gif)
 
-1. Go into the **"pages"** folder (located in `guides/src`) and find the article stub you'd like to write or edit.
+1. Ve al folder de **"pages"**  (localizado en `guides/src`) y encuentra el articulo plantilla que quisieras escribir o editar.
 
-    > All stubs will be in an index.md file
+    > Todas las plantillas estaran en un documento index.md 
 
-2. Click the <kbd>Edit this file</kbd> pencil icon and make your changes to the file in GitHub-flavored Markdown.
+2. Presiona el icono de lapiz con <kbd>Edit this article</kbd>  y hazle cambios al archivo en formato Markdown de GitHub.
 
-3. Scroll to the bottom of the screen and add a commit message explaining your changes.
+3. Ve hasta el fondo de la pantalla y agrega un mensaje de commit explicando tus cambios.
 
-4. Then select the radio button option for **"Create a new branch for this commit and start a pull request"** and click <kbd>Propose file changes</kbd>.
+4. Despues selecciona la opcion radio button que dice  **"Create a new branch for this commit and start a pull request"** y presiona <kbd>Propose file changes</kbd>.
 
-5. On the next screen, you can add any other details about your PR, then click <kbd>Create pull request</kbd>.
+5. En la siguiete pantalla, podras agregar cualquier detalle acerca de tu PR y despues dar clic en <kbd>Create pull request</kbd>.
 
-### Cloning Locally
+### Clonar localmente
 
-1. Fork this repository
+1. Hazle Fork a este repositorio
 
-2. Copy it to your local machine by running the following command:
-
-    ```bash
-    git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git
-    ```
-
-3. Add a remote upstream so git knows where the official freeCodeCamp guides repository is located by running the following command:
+2. Copialo a tu maquina local con el siguiente comando:
 
     ```bash
-    git remote add upstream https://github.com/freeCodeCamp/guides.git
+    git clone https://github.com/bigdatamx/guides-capacitacion-praxis.git
     ```
 
-4. Create a new branch for your work with the command `git checkout -b NEW-BRANCH-NAME`.
+3. Agrega un upstream remoto de forma que git sepa en donde se encuentra la guia oficial de BigdataMx con el siguiente comando:
 
-    > Try to name your branch in a way that describes your article topic, like `fix/article-html`
+    ```bash
+    git remote add upstream https://github.com/bigdatamx/guides-capacitacion-praxis.git
+    ```
 
-5. Write your article, commit your changes locally, and push your new branch to GitHub with the command `git push origin NEW-BRANCH-NAME`
+4. Crea un nuevo branch para tu trabajo con el siguiente comando `git checkout -b NOMBRE-BRANCH`.
 
-6. Go to your repository on GitHub and open a PR
+    > Intenta ponerle un nombre que describa el topico de tu articulo como `fix/articulo-html`
 
-Make sure to maintain your local fork going forward so it stays up-to-date with the freeCodeCamp guides repository.
+5. Escribe tu articulo, hazle commit a tus cambios locales y sañe úsh a tu nuevo branch en GitHub con el comando `git push origin NOMBRE-BRANCH`
 
-The next time you want to contribute, checkout your local `master` branch and run the command `git pull --rebase upstream master` before creating a new branch.
+6. Ve a tu respositorio en GitHub y abre un PR 
 
-This will grab all the changes on the official `master` branch without making an additional commit in your local repository.
+Asegurate de mantener un fork local en crecimiento de forma que se mantenga actualizado con el repositorio  de BigdataMx.
 
-### Running Locally
+La proxima vez que quieras contribuir, hazle checkout a tu branch local `master` y corre el comando `git pull --rebase upstream master` antes de crear un nuevo branch.
+
+Esto tomará todos los cambios en el `master` original sin hacer un commit adicional en tu repositorio local.
+
+### Correrlo local
 
 ```bash
-# make sure to have yarn installed
+# Asegurate de tener yarn instalado
 npm install -g yarn
 
-# fork repo
+# dale fork tu repo
 
-# clone down your repo
+# clona tu  repo
 git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git
 
-# navigate to root folder
+# posicionate en la raiz de el repo
 cd guides
 
-# install dependencies
+# instala las dependencias
 yarn install
 
-# run locally
+# correlo localmente
 yarn run dev
 ```
 
-In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
+Usamos `yarn` porque `netlify` compila el sitio con `yarn`.
 
-## Getting PR Accepted
+## tu PR aprovada
+
+Aqui hay una guia que siguen los revisores de contenido para los PR:
+
 
 Here are a few guidelines the reviewers follow when reviewing PRs:
+- La descripcion y el titulo son relevantes
+- La PR respeta el [guia de estilo de articulo](./CONTRIBUTING.md/#article-style-guide)
+- Sigue los tips generales  encontrados en [Guia de moderador](https://forum.freecodecamp.org/t/freecodecamp-moderator-guidelines/18295)
+- Con que el pull request mejore o expanda la guia, lo aceptamos aunque contenga errores de sintaxis en Español o en el contenido parcial.
+- Pull request viejos son revisados primero
 
-- there is a relevant description and title
-- PR respects the [Article style guide](./CONTRIBUTING.md/#article-style-guide)
-- we follow general QA tips found in [Moderator guidelines](https://forum.freecodecamp.org/t/freecodecamp-moderator-guidelines/18295)
-- as long as a pull request improves or expands the guide, we accept it even if it contains imperfect English or partial content
-- older pull requests are reviewed first
+### Etiquetas
 
-### Labels
+- **content** es para pull request que modifican el contenido de los articulos en la guia (agregan un nuevo articulo o actualizan un articulo existente)
+- **duplicate** es para pull requests que tienen el mismo contenido que en otro PR abierto
+- **changes requested** es para pull request que necesitan un cambio antes de ser aceptadas
+- **stale** es para pull requests con la etiqueta _"changes requested"_ que no tienen actividad por mas de 2 semanas y subsqcuentemente seran cerrados.
+  - las _stale_ pull request deben de estar cerradas.
+  - Aqui hay [un ejemplo](https://github.com/freeCodeCamp/guides/pull/235).
 
-- **content** is for pull requests that modify the content of articles on the guide (they add a new article or update an existing article)
-- **duplicate** is for pull requests that have the same content as another open PR
-- **changes requested** is for pull requests that need a change before getting merged
-- **stale** is for pull requests with _"changes requested"_ label that doesn't get activity after about 2 weeks and will subsequently be closed.
-  - A _stale_ pull request should be closed.
-  - Here is [an example](https://github.com/freeCodeCamp/guides/pull/235).
+### Contenido Duplicado/Conflictivo
 
-### Conflicting/Duplicate Content
+Una PR es considerada un **Duplicado** si le hace cambios al mismo articulo con una PR diferente.
 
-A PR is considered a **duplicate** if it makes changes to the same article as another PR.
+En general, un revsor deberá:
 
-In general, a reviewer will:
+1. Ordenar las PR por la mas vieja
+2. Buscar PR con contenido similar
+3. Combinar la PR mas nueva con la mas vieja
 
-1. Sort PR from the oldest
-2. Search for PRs with similar content
-3. Merge from the oldest to the newest
+Es muy probable que existan conflictor al combinar PRs duplicadas.
 
-It is very likely there will be merge conflicts with duplicate PRs.
+Los revisores harán un esfuerzo a resolver estos conflios en la combinación de PRs.
 
-Reviewers will make every effort to resolve these conflicts and merge duplicate PRs.
+### Pedir cambios
 
-### Requesting Changes
+Si una pull request no es perfecta, el revisor podrá:
+- pedir cambios al contribuidor y agregar la etiqueta *cambios pedidos*
+- Arreglar cambios menores y hacer un commit sobre la PR
 
-If a pull request is not perfect, the reviewer may:
+### Compilacion Travis CI 
+Todas las PRs deben de pasar la verificación de Travis CI antes de que podamos combinarlos.
 
-- request changes to the contributor and add the *changes requested* label
-- fix minor issues and make a commit on top of the PR
+Si una PR rompe la compilación (Travis CI mostrara una "X" roja) habra dos tipos de soluciones.
 
-### Travis CI Build
+Deberas de arreglar el problema antes de que combinemos tu PR:
 
-All PRs must pass the Travis CI checks before we can merge it.
-
-If a PR breaks the build (a Travis CI check fails and shows a red "X") there are two likely sources.
-
-You will need to fix the issue before we can merge your PR:
-
-1. Your PR creates a new article and it's missing an `index.md` file somewhere.
-    - Every folder in `src/pages` needs an `index.md` file in it (and the name has to be `index.md`).
-    - Two likely scenarios are
-      - you named the new article file something other than `index.md`, or
-      - you created both a new folder, then a sub-folder, you wrote the new article in the sub-folder but forget to put a stub `index.md` file in the new folder
-2. The article doesn't have a `title` field at the top.
-    - Please refer to [Title](#title) section below under [Article Style Guide](#article-style-guide).
+1. Tu PR crea un nuevo articulo y le falta el `index.md` de alguna forma.
+    - Cada folder dentro de  `src/pages` necesita un archivo`index.md` dentro de el (y el nombre debe de ser `index.md`).
+    - Dos escenarios probables son:
+      - nombraste el archivo con algo diferente a`index.md`, o
+      - creaste un nuevo folder y despues un sub-folder, y escribiste el articulo en el subfolder pero no pusiste el archivo `index.md` en el nuevo folder.
+2. El articilo no tiene un `title` en la cabezera.
+    - Por favor checa el [Title](#title) en la seccion dentro de [guia de diseño de articulo](#article-style-guide).
 
 ### Closing
 
