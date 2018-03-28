@@ -1,4 +1,4 @@
-![Guia BigdataMX](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
+![Guia BigdataMX](https://imgur.com/y0x2xfD)
 
 # Guia BigdataMX
 
