@@ -3,7 +3,7 @@ title: 8-Busqueda
 ---
 #Búsqueda
 
-La búsqueda le permite ejecutar una consulta de búsqueda y recuperar resultados de búsqueda que coinciden con la consulta.
+Dentro de un gestor de información es importante poder realizar busqueda para encontrar información que contenga cierto criterio de evaluaión, elastic search permite la búsqueda real-time, y uno de sus fuertes es la busqueda full-text (de texto completo), que nos ayuda para diferentes casos de uso.
 
 Elasticsearch permite :
 - Cadena como consulta
