@@ -1,4 +1,4 @@
-![Guia BigdataMX](https://imgur.com/y0x2xfD)
+![Guia BigdataMX](https://i.imgur.com/y0x2xfD.png)
 
 # Guia BigdataMX
 
